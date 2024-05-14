@@ -323,7 +323,7 @@ footer {
 .foto-escuela {
     width: 100;
     height: 300px;
-    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.137),rgba(255, 255, 255, 0.137)),url(./assets/escuela.png);
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.137),rgba(255, 255, 255, 0.137)),url(../assets/escuela.png);
     background-position: center; 
     background-size: cover;
     background-repeat:no-repeat;
