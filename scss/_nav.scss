@@ -1,0 +1,56 @@
+
+nav {
+    .boton {
+        font-family: $font-family;
+        font-size: 1.8rem;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        border-radius: 0.8rem;
+        background-color: $naranja-oscuro;
+        color: $blanco;
+        font-weight: 600;
+        text-align: center;
+        display: inline-block;
+        box-sizing: border-box;
+        margin-left: 4rem;
+        margin-bottom: 2rem;
+        outline: none;
+        border: none;
+            &:hover {
+                background-color: $hover;
+            }
+        }
+    .boton--nav {
+        font-size: 1.4rem;
+        font-weight: 500;
+        padding: 0.5rem 1rem;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 1.5rem;
+        @include mobile {
+            margin-left: 0;
+        }
+    }
+    .logo {
+        padding-top: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 4rem;
+        @include mobile {
+            padding-top: 1rem;
+            padding-right: 1rem;
+            padding-bottom: 1rem;
+            padding-left: 1rem;
+        }
+    }
+    
+    .nav-link {
+        margin-right: 6rem;
+        font-family:$font-family;
+        font-weight: 500;
+        font-size: 1.4rem;
+        color:$morado-oscuro;
+        padding-top: 2rem;
+        vertical-align: middle;
+    }   
+}

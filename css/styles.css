@@ -1,0 +1,1560 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100;
+}
+
+nav .boton {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 0.8rem;
+  background-color: #FF543E;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+  outline: none;
+  border: none;
+}
+nav .boton:hover {
+  background-color: #FA3C23;
+}
+nav .boton--nav {
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 1.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  nav .boton--nav {
+    margin-left: 0;
+  }
+}
+nav .logo {
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 4rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  nav .logo {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+  }
+}
+nav .nav-link {
+  margin-right: 6rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #190945;
+  padding-top: 2rem;
+  vertical-align: middle;
+}
+
+html {
+  font-size: 62.5%;
+  /*1 rem = 10px*/
+}
+html body {
+  background-color: white;
+  overflow-x: hidden;
+}
+html body header .caja-1 {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body header .caja-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+html body header .caja-1 .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #190945;
+  color: white;
+  border-radius: 1rem 0 0 1rem;
+  margin-top: 5rem;
+  margin-left: 4rem;
+  margin-bottom: 1.5rem;
+  margin-right: 0;
+  height: 300px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body header .caja-1 .header {
+    height: 320px;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 0;
+    width: 83%;
+    border-radius: 1rem 1rem 0 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1040px) {
+  html body header .caja-1 .header {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body header .caja-1 .header .mujer-tablet {
+    display: none;
+  }
+}
+@media screen and (min-width: 1041px) {
+  html body header .caja-1 .header .mujer-tablet {
+    display: none;
+  }
+}
+html body header .caja-1 .header .titles--white {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: white;
+  padding-top: 3rem;
+  padding-right: 2rem;
+  padding-left: 4rem;
+  padding-bottom: 0.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body header .caja-1 .header .titles--white {
+    font-weight: 600;
+    font-size: 2.3rem;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1040px) {
+  html body header .caja-1 .header .titles--white {
+    font-weight: 580;
+    font-size: 2.2rem;
+    padding-top: 2.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+  }
+}
+html body header .caja-1 .header .text-blanco {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: white;
+  padding-left: 4rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body header .caja-1 .header .text-blanco {
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1040px) {
+  html body header .caja-1 .header .text-blanco {
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+    padding-right: 2rem;
+  }
+}
+html body header .caja-1 .header .boton {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  text-decoration: none;
+  border-radius: 8px;
+  background-color: #FF543E;
+  color: white;
+  font-weight: 600;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+  outline: none;
+  border: none;
+  align-self: flex-start;
+  padding: 1rem 1.5rem;
+}
+html body header .caja-1 .header .boton:hover {
+  background-color: #FA3C23;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body header .caja-1 .header .boton {
+    padding: 0.5rem 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1040px) {
+  html body header .caja-1 .header .boton {
+    padding: 0.5rem 5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+  }
+}
+html body header .caja-1 .foto-header .foto-mujer {
+  background-color: #3B286D;
+  margin-top: 5rem;
+  margin-right: 4rem;
+  margin-bottom: 1.5rem;
+  height: 30rem;
+  border-radius: 0 1rem 1rem 0;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body header .caja-1 .foto-header .foto-mujer {
+    width: 83%;
+    margin-top: 0;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    height: 150px;
+    border-radius: 0 0 1rem 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1040px) {
+  html body header .caja-1 .foto-header .foto-mujer {
+    display: none;
+  }
+}
+html body header .caja-1 .foto-header .mujer-tablet {
+  background-color: #3B286D;
+  margin-top: 5rem;
+  margin-right: 4rem;
+  margin-bottom: 1.5rem;
+  height: 30rem;
+  border-radius: 0 1rem 1rem 0;
+}
+@media screen and (min-width: 1041px) {
+  html body header .caja-1 .foto-header .mujer-tablet {
+    display: none;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body header .caja-1 .foto-header .mujer-tablet {
+    display: none;
+  }
+}
+html body main article .titles {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #FF543E;
+  padding-top: 0.5rem;
+  padding-right: 2rem;
+  padding-left: 4rem;
+  padding-bottom: 0.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main article .titles {
+    font-weight: 700;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-left: 4rem;
+    padding-bottom: 0.5rem;
+  }
+}
+html body main article .subtitles {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #190945;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main article .subtitles {
+    font-weight: 650;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    padding-left: 4rem;
+    padding-bottom: 0.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1040px) {
+  html body main article .subtitles {
+    padding-right: 3rem;
+  }
+}
+html body main .grid-cursos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  padding-bottom: 0.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .grid-cursos {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  html body main .grid-cursos .foto {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1040px) {
+  html body main .grid-cursos {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  html body main .grid-cursos .foto {
+    display: none;
+  }
+}
+html body main .grid-cursos .card-naranja, html body main .grid-cursos .card-morada {
+  background-color: #FF543E;
+  border-radius: 3rem;
+  text-align: left;
+  gap: 2rem;
+  height: 40rem;
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 768px) and (max-width: 1040px) {
+  html body main .grid-cursos .card-naranja, html body main .grid-cursos .card-morada {
+    height: 200px;
+  }
+}
+html body main .grid-cursos .card-naranja .texto-fondo .title--card-1, html body main .grid-cursos .card-morada .texto-fondo .title--card-1 {
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: blanco;
+  padding: 0.6rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .grid-cursos .card-naranja .texto-fondo .title--card-1, html body main .grid-cursos .card-morada .texto-fondo .title--card-1 {
+    width: 83%;
+    font-weight: 700;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+}
+html body main .grid-cursos .card-naranja .texto-fondo .text-blanco, html body main .grid-cursos .card-morada .texto-fondo .text-blanco {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: white;
+  padding-left: 4rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .grid-cursos .card-naranja .texto-fondo .text-blanco, html body main .grid-cursos .card-morada .texto-fondo .text-blanco {
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1040px) {
+  html body main .grid-cursos .card-naranja .texto-fondo .text-blanco, html body main .grid-cursos .card-morada .texto-fondo .text-blanco {
+    padding-left: 1rem;
+    padding-bottom: 0;
+  }
+}
+html body main .grid-cursos .card-naranja.card-morada, html body main .grid-cursos .card-morada.card-morada {
+  background-color: #190945;
+  padding-bottom: 10px;
+}
+html body main .grid-cursos .card-naranja .flecha-enlace, html body main .grid-cursos .card-morada .flecha-enlace {
+  padding-top: 2rem;
+  max-width: 35%;
+  margin-right: 2rem;
+  float: right;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .grid-cursos .card-naranja .flecha-enlace, html body main .grid-cursos .card-morada .flecha-enlace {
+    padding-top: 0.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1040px) {
+  html body main .grid-cursos .card-naranja .flecha-enlace, html body main .grid-cursos .card-morada .flecha-enlace {
+    padding: 0;
+  }
+}
+html body .contactanos {
+  margin-left: 4rem;
+  margin-right: 2rem;
+  border: 1px solid #190945;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom: none;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body .contactanos {
+    margin-left: 3.5rem;
+    margin-right: 3rem;
+  }
+  html body .contactanos .foto-form {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1040px) {
+  html body .contactanos .foto-form {
+    display: none;
+  }
+}
+html body .contactanos .titles {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #FF543E;
+  padding-top: 0.5rem;
+  padding-right: 2rem;
+  padding-left: 4rem;
+  padding-bottom: 0.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body .contactanos .titles {
+    font-weight: 700;
+    font-size: 2.2rem;
+    padding-top: 1.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+  }
+}
+html body .contactanos .subtitles {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #190945;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body .contactanos .subtitles {
+    font-weight: 650;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1040px) {
+  html body .contactanos .subtitles {
+    padding-right: 3rem;
+  }
+}
+html body .contactanos .form {
+  display: flex;
+  align-items: center;
+}
+html body .contactanos .form img {
+  width: 50%;
+}
+html body .contactanos .form .text-form {
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-bottom: 0;
+  padding-right: 0;
+  font-weight: 600;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body .contactanos .form .text-form {
+    margin-bottom: 0;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+}
+html body .contactanos .form form {
+  width: 85%;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: #190945;
+  padding: 2rem;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  background-color: #D9D0F0;
+  border-radius: 1rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body .contactanos .form form {
+    max-width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 2rem;
+    padding: 0;
+    margin-top: 0;
+  }
+}
+html body .contactanos .form form input {
+  border: none;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 0.2rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body .contactanos .form form input {
+    margin: 1rem;
+    outline: none;
+    border: 0;
+    max-width: 100%;
+    width: 200px;
+  }
+}
+html body .contactanos .form form input:focus {
+  outline: none;
+  border-color: #190945;
+  border-width: 0.1rem;
+  border-style: solid;
+}
+html body .contactanos .form form textarea {
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid transparent;
+  width: 520px;
+  padding: 15px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body .contactanos .form form textarea {
+    margin: 1rem;
+    outline: none;
+    border: 0;
+    max-width: 90%;
+  }
+}
+html body .contactanos .form form textarea:focus {
+  border-color: #190945;
+  border-width: 0.1rem;
+  border-style: solid;
+}
+html body .contactanos .form form .boton--form {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.8rem;
+  color: white;
+  max-width: 25%;
+  background-color: #f87564;
+  margin-right: 1rem;
+  float: right;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body .contactanos .form form .boton--form {
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    max-width: 90%;
+    float: none;
+  }
+}
+
+html {
+  font-size: 62.5%;
+  /*1 rem = 10px*/
+}
+html body {
+  background-color: white;
+  overflow-x: hidden;
+}
+html body header .foto-escuela {
+  width: 100;
+  height: 30rem;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.137), rgba(255, 255, 255, 0.137)), url(../assets/escuela.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+  margin-right: 4rem;
+  border-radius: 0.8rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body header .foto-escuela {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+  }
+}
+html body header .foto-escuela .titles {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #FF543E;
+  padding-top: 3rem;
+  padding-right: 2rem;
+  padding-left: 4rem;
+  padding-bottom: 0.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body header .foto-escuela .titles {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 0;
+  }
+}
+html body main {
+  margin-bottom: 2rem;
+}
+html body main .titles {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #FF543E;
+  padding-top: 3rem;
+  padding-right: 2rem;
+  padding-left: 4rem;
+  padding-bottom: 0.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .titles {
+    font-weight: 700;
+    font-size: 2.2rem;
+    padding-top: 1.5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 0.5rem;
+  }
+}
+html body main .text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #190945;
+  padding-left: 4rem;
+  padding-bottom: 2rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .text {
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 0;
+  }
+}
+html body main .areas-escuela {
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #190945;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+  margin-right: 4rem;
+  padding: 1.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .areas-escuela {
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #190945;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+  }
+  html body main .areas-escuela img {
+    height: 8rem;
+    margin: 0.2rem;
+  }
+}
+html body main .areas-escuela .titles {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: white;
+  padding-top: 3rem;
+  padding-right: 2rem;
+  padding-left: 4rem;
+  padding-bottom: 0.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .areas-escuela .titles {
+    font-weight: 700;
+    font-size: 2.2rem;
+    padding-top: 1.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .foto-mn {
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    margin: 0;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+  }
+}
+html body main .boton {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  text-decoration: none;
+  border-radius: 8px;
+  background-color: #FF543E;
+  color: white;
+  font-weight: 600;
+  margin-left: 4rem;
+  margin-bottom: 4rem;
+  outline: none;
+  border: none;
+  align-self: flex-start;
+  padding: 1rem 1.5rem;
+}
+html body main .boton:hover {
+  background-color: #FA3C23;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .boton {
+    padding: 1rem 6.5rem;
+    margin-left: 3rem;
+    margin-right: 0;
+    width: 91%;
+  }
+}
+
+html {
+  font-size: 62.5%;
+  /*1 rem = 10px*/
+}
+html body {
+  background-color: white;
+  overflow-x: hidden;
+}
+html body main .card-cursos, html body main .card-cursos-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  margin: 4rem;
+  border-radius: 0 1rem 1rem 0;
+  border: 0.1rem solid #FF543E;
+}
+html body main .card-cursos-2 {
+  border-radius: 1rem 0 0 1rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .card-cursos, html body main .card-cursos-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    top: 0;
+    margin-right: 3rem;
+  }
+}
+html body main .card-cursos .grid.card, html body main .card-cursos-2 .grid.card {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+html body main .card-cursos .fotos-eventos, html body main .card-cursos-2 .fotos-eventos {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 100;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .card-cursos .fotos-eventos, html body main .card-cursos-2 .fotos-eventos {
+    width: 90%;
+  }
+}
+html body main .card-cursos .titles-card-e, html body main .card-cursos-2 .titles-card-e {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 0;
+  margin-top: 10rem;
+  font-size: 5rem;
+  color: #FF543E;
+  font-weight: 700;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .card-cursos .titles-card-e, html body main .card-cursos-2 .titles-card-e {
+    font-size: 3rem;
+  }
+}
+html body main .card-cursos .container, html body main .card-cursos-2 .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+html body main .card-cursos .container .info-group, html body main .card-cursos-2 .container .info-group {
+  display: flex;
+  align-items: center;
+  flex: 1 1 100%;
+}
+html body main .card-cursos .container .info-group h4, html body main .card-cursos-2 .container .info-group h4 {
+  margin: 0;
+}
+html body main .card-cursos .container .info-group p, html body main .card-cursos-2 .container .info-group p {
+  margin: 0;
+  padding-left: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+html body main .card-cursos .container .info-group .text-e, html body main .card-cursos-2 .container .info-group .text-e {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #190945;
+  padding: 0;
+  margin: 0;
+}
+html body main .card-cursos .container .info-group .subtitles-card-e, html body main .card-cursos-2 .container .info-group .subtitles-card-e {
+  display: inline;
+  margin-right: 1rem;
+  padding-top: 5rem;
+  padding-left: 0;
+  padding-right: 2rem;
+  padding-bottom: 0;
+  margin-top: 5rem;
+}
+html body main .card-cursos .container .info-group .icono-h, html body main .card-cursos-2 .container .info-group .icono-h,
+html body main .card-cursos .container .info-group .icono-l,
+html body main .card-cursos-2 .container .info-group .icono-l,
+html body main .card-cursos .container .info-group .icono-e,
+html body main .card-cursos-2 .container .info-group .icono-e {
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 2.5rem;
+  margin-left: 2rem;
+  margin-right: 0;
+}
+html body main .card-cursos .container .info-group .icono-h.icono-h, html body main .card-cursos-2 .container .info-group .icono-h.icono-h,
+html body main .card-cursos .container .info-group .icono-l.icono-h,
+html body main .card-cursos .container .info-group .icono-e.icono-h {
+  background-image: url(../assets/horario.png);
+}
+html body main .card-cursos .container .info-group .icono-h.icono-l,
+html body main .card-cursos .container .info-group .icono-l.icono-l,
+html body main .card-cursos-2 .container .info-group .icono-l.icono-l,
+html body main .card-cursos .container .info-group .icono-e.icono-l {
+  background-image: url(../assets/location_on2.png);
+}
+html body main .card-cursos .container .info-group .icono-h.icono-e,
+html body main .card-cursos .container .info-group .icono-l.icono-e,
+html body main .card-cursos .container .info-group .icono-e.icono-e,
+html body main .card-cursos-2 .container .info-group .icono-e.icono-e {
+  background-image: url(../assets/entrada.png);
+}
+html body main .card-cursos .boton-card-e, html body main .card-cursos-2 .boton-card-e {
+  float: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  text-decoration: none;
+  border-radius: 8px;
+  background-color: #f89a8c;
+  color: white;
+  font-weight: 600;
+  margin-top: 5rem;
+  margin-left: 2rem;
+  margin-bottom: 0.2rem;
+  border: 0.2rem solid #FF543E;
+  padding: 1rem 1.5rem;
+}
+html body main .card-cursos .boton-card-e:hover, html body main .card-cursos-2 .boton-card-e:hover {
+  background-color: #FF543E;
+  color: white;
+}
+
+html {
+  font-size: 62.5%;
+  /*1 rem = 10px*/
+}
+html body {
+  background-color: white;
+  overflow-x: hidden;
+}
+html body header .caja {
+  position: relative;
+}
+html body header .caja .card-2 {
+  position: absolute;
+  z-index: 1;
+  top: 15%;
+  left: 0;
+  border: 1px solid #190945;
+  border-radius: 2rem;
+  padding: 2.5rem;
+  display: inline-block;
+  background-color: white;
+  margin-top: 2rem;
+  margin-right: 55rem;
+  margin-left: 4rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body header .caja .card-2 {
+    position: absolute;
+    padding: 1rem;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    width: 82%;
+  }
+}
+html body header .caja .hombre-guitarra {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-top: 5rem;
+  margin-left: 63rem;
+  margin-bottom: 1.5rem;
+  margin-right: 5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body header .caja .hombre-guitarra {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 30rem;
+    height: 165px;
+  }
+}
+html body header .caja .titles--morado {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #190945;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body header .caja .titles--morado {
+    text-align: center;
+    font-size: 2.3rem;
+    padding: 0;
+  }
+}
+html body header .caja .subtitles-c {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #FF543E;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body header .caja .subtitles-c {
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.6rem;
+    padding: 0;
+  }
+}
+html body header .caja .text--morado {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #190945;
+  padding-left: 1rem;
+  padding-bottom: 0;
+}
+html body header .caja a {
+  color: #190945;
+  font-weight: 600;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body header .caja a {
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 0;
+  }
+}
+html body main .card-cursos, html body main .card-cursos-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  margin: 4rem;
+  border-radius: 0 1rem 1rem 0;
+  border: 1px solid #FF543E;
+}
+html body main .card-cursos-2 {
+  border-radius: 1rem 0 0 1rem;
+}
+html body main .card-cursos .grid.card, html body main .card-cursos-2 .grid.card {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+html body main .card-cursos .foto-izq, html body main .card-cursos-2 .foto-izq {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 100;
+  border-radius: 0 8rem 8rem 0;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .card-cursos .foto-izq, html body main .card-cursos-2 .foto-izq {
+    display: none;
+  }
+}
+html body main .card-cursos .foto-der, html body main .card-cursos-2 .foto-der {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 100;
+  border-radius: 8rem 0rem 0rem 8rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .card-cursos .foto-der, html body main .card-cursos-2 .foto-der {
+    display: none;
+  }
+}
+html body main .card-cursos .foto-mobile, html body main .card-cursos-2 .foto-mobile {
+  width: 100%;
+  border-radius: 1rem 1rem 2rem 2rem;
+}
+@media screen and (min-width: 1041px) {
+  html body main .card-cursos .foto-mobile, html body main .card-cursos-2 .foto-mobile {
+    display: none;
+  }
+}
+html body main .card-cursos .titles, html body main .card-cursos-2 .titles {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 0;
+  padding-bottom: 0;
+  margin: 0;
+  font-size: 2rem;
+}
+html body main .card-cursos .text, html body main .card-cursos-2 .text {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+html body main .card-cursos .subtitles-card, html body main .card-cursos-2 .subtitles-card {
+  padding-top: 1rem;
+  padding-left: 0;
+  padding-right: 2rem;
+  padding-bottom: 0;
+  margin: 0;
+}
+html body main .card-cursos .list, html body main .card-cursos-2 .list {
+  padding: 0;
+  margin-left: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  color: #190945;
+}
+html body main .card-cursos .icono-r, html body main .card-cursos-2 .icono-r,
+html body main .card-cursos .icono-i,
+html body main .card-cursos-2 .icono-i,
+html body main .card-cursos .icono-h,
+html body main .card-cursos-2 .icono-h,
+html body main .card-cursos .icono-d,
+html body main .card-cursos-2 .icono-d,
+html body main .card-cursos .icono-s,
+html body main .card-cursos-2 .icono-s {
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 2.5rem;
+  margin-left: 2rem;
+  margin-right: 0;
+}
+html body main .card-cursos .icono-r.icono-r, html body main .card-cursos-2 .icono-r.icono-r,
+html body main .card-cursos .icono-i.icono-r,
+html body main .card-cursos .icono-h.icono-r,
+html body main .card-cursos .icono-d.icono-r,
+html body main .card-cursos .icono-s.icono-r {
+  background-image: url(../assets/requisitos.png);
+}
+html body main .card-cursos .icono-r.icono-i,
+html body main .card-cursos .icono-i.icono-i,
+html body main .card-cursos-2 .icono-i.icono-i,
+html body main .card-cursos .icono-h.icono-i,
+html body main .card-cursos .icono-d.icono-i,
+html body main .card-cursos .icono-s.icono-i {
+  background-image: url(../assets/que-incluye.png);
+}
+html body main .card-cursos .icono-r.icono-h,
+html body main .card-cursos .icono-i.icono-h,
+html body main .card-cursos .icono-h.icono-h,
+html body main .card-cursos-2 .icono-h.icono-h,
+html body main .card-cursos .icono-d.icono-h,
+html body main .card-cursos .icono-s.icono-h {
+  background-image: url(../assets/horario.png);
+}
+html body main .card-cursos .icono-r.icono-d,
+html body main .card-cursos .icono-i.icono-d,
+html body main .card-cursos .icono-h.icono-d,
+html body main .card-cursos .icono-d.icono-d,
+html body main .card-cursos-2 .icono-d.icono-d,
+html body main .card-cursos .icono-s.icono-d {
+  background-image: url(../assets/duracion.png);
+}
+html body main .card-cursos .icono-r.icono-s,
+html body main .card-cursos .icono-i.icono-s,
+html body main .card-cursos .icono-h.icono-s,
+html body main .card-cursos .icono-d.icono-s,
+html body main .card-cursos .icono-s.icono-s,
+html body main .card-cursos-2 .icono-s.icono-s {
+  background-image: url(../assets/importante.png);
+  padding-left: 1rem;
+}
+
+html {
+  font-size: 62.5%;
+  /*1 rem = 10px*/
+}
+html body {
+  background-color: white;
+  overflow-x: hidden;
+}
+html body header .caja {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body header .caja {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+html body header .caja .foto-header .foto-np {
+  background-color: #FF543E;
+  border-radius: 0.8px;
+  margin-top: 5rem;
+  margin-right: 4rem;
+  margin-bottom: 1.5rem;
+  height: 28rem;
+  border-radius: 0 1rem 1rem 0;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body header .caja .foto-header .foto-np {
+    width: 80%;
+    margin-top: 0;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-top: 0;
+    height: 180px;
+    border-radius: 0 0 1rem 1rem;
+  }
+}
+html body header .caja .header-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  background-color: #FA3C23;
+  color: white;
+  border-radius: 1rem 0 0 1rem;
+  margin-top: 5rem;
+  margin-left: 4rem;
+  margin-bottom: 1.5rem;
+  margin-right: 0;
+  height: 280px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body header .caja .header-2 {
+    height: 305px;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 0;
+    width: 80%;
+    border-radius: 1rem 1rem 0 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+html body header .caja .header-2 .titles--white {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: white;
+  padding-top: 8rem;
+  padding-right: 20px;
+  padding-left: 40px;
+  padding-bottom: 5px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body header .caja .header-2 .titles--white {
+    font-weight: 600;
+    font-size: 2.3rem;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+  }
+}
+html body header .caja .header-2 .text-blanco {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: white;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body header .caja .header-2 .text-blanco {
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+}
+html body main .card-cursos, html body main .card-cursos-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 4rem;
+  border-radius: 0 1rem 1rem 0;
+  border: 1px solid #FF543E;
+}
+html body main .card-cursos-2 {
+  border-radius: 1rem 0 0 1rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .card-cursos-2 {
+    border-radius: 1rem 1rem 1rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 3rem;
+  }
+}
+html body main .card-cursos .grid.card, html body main .card-cursos-2 .grid.card {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+html body main .card-cursos .logos-profes, html body main .card-cursos-2 .logos-profes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  float: right;
+  gap: 2rem;
+  margin-top: 16rem;
+  margin-right: 2.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .card-cursos .logos-profes, html body main .card-cursos-2 .logos-profes {
+    display: none;
+  }
+}
+html body main .card-cursos .foto-izq, html body main .card-cursos-2 .foto-izq {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 100;
+  border-radius: 0 8rem 8rem 0;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .card-cursos .foto-izq, html body main .card-cursos-2 .foto-izq {
+    display: none;
+  }
+}
+html body main .card-cursos .foto-der, html body main .card-cursos-2 .foto-der {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 100;
+  border-radius: 8rem 0rem 0rem 8rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .card-cursos .foto-der, html body main .card-cursos-2 .foto-der {
+    display: none;
+  }
+}
+html body main .card-cursos .foto-mobile, html body main .card-cursos-2 .foto-mobile {
+  width: 100%;
+  border-radius: 1rem 1rem 2rem 2rem;
+}
+@media screen and (min-width: 1041px) {
+  html body main .card-cursos .foto-mobile, html body main .card-cursos-2 .foto-mobile {
+    display: none;
+  }
+}
+html body main .card-cursos .titles-card-p, html body main .card-cursos-2 .titles-card-p {
+  padding-top: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 0;
+  margin-top: 10rem;
+  font-size: 5rem;
+  color: #FF543E;
+  font-weight: 700;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .card-cursos .titles-card-p, html body main .card-cursos-2 .titles-card-p {
+    font-weight: 700;
+    font-size: 2.2rem;
+    padding-top: 1.5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+}
+html body main .card-cursos .text, html body main .card-cursos-2 .text {
+  padding-top: 0rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  margin: 0;
+  font-size: 1.3rem;
+}
+html body main .card-cursos .subtitles-card-2, html body main .card-cursos-2 .subtitles-card-2 {
+  font-size: 2rem;
+  padding-left: 2rem;
+  margin: 0;
+}
+html body main .card-cursos .list, html body main .card-cursos-2 .list {
+  padding-top: 0;
+  padding-left: 1rem;
+  padding-right: 0;
+  padding-bottom: 1rem;
+  margin-left: 3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  color: #190945;
+}
+html body main .card-cursos .boton-card, html body main .card-cursos-2 .boton-card {
+  display: flex;
+  justify-content: center;
+  float: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  text-decoration: none;
+  border-radius: 8px;
+  background-color: #f89a8c;
+  color: white;
+  font-weight: 600;
+  margin-top: 0.2rem;
+  margin-left: 2rem;
+  margin-bottom: 0.2rem;
+  border: 0.2rem solid #FF543E;
+  padding: 1rem 1.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  html body main .card-cursos .boton-card, html body main .card-cursos-2 .boton-card {
+    float: left;
+    padding: 0.5rem 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    width: 85%;
+  }
+}
+html body main .card-cursos .boton-card:hover, html body main .card-cursos-2 .boton-card:hover {
+  background-color: #FF543E;
+  color: white;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2.5fr;
+  justify-self: center;
+  background-color: #190945;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding: 2rem;
+  margin-top: 0;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  footer .logo-footer {
+    height: 110px;
+    padding-left: 8.5rem;
+    padding-top: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1040px) {
+  footer .logo-footer {
+    height: 100px;
+  }
+}
+footer .lista {
+  list-style: none;
+  padding: 1rem;
+}
+footer .lista a {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  footer .lista a {
+    padding-left: 0;
+    padding-top: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1040px) {
+  footer .lista a {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  footer .lista li {
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  footer .logos-redes img {
+    padding-left: 1.2rem;
+  }
+}
+footer .text--footer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: white;
+  padding-left: 0px;
+  padding-bottom: 1rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  footer .text--footer {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1040px) {
+  footer .text--footer {
+    font-size: 1.2rem;
+  }
+}
+footer .telefono,
+footer .correo,
+footer .whatsapp,
+footer .direccion {
+  font-weight: 400;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 3rem;
+  color: white;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  footer .telefono,
+  footer .correo,
+  footer .whatsapp,
+  footer .direccion {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1040px) {
+  footer .telefono,
+  footer .correo,
+  footer .whatsapp,
+  footer .direccion {
+    font-size: 1.2rem;
+  }
+}
+footer .telefono.telefono,
+footer .correo.telefono,
+footer .whatsapp.telefono,
+footer .direccion.telefono {
+  background-image: url(../assets/call.png);
+}
+footer .telefono.correo,
+footer .correo.correo,
+footer .whatsapp.correo,
+footer .direccion.correo {
+  background-image: url(../assets/mail.png);
+}
+footer .telefono.whatsapp,
+footer .correo.whatsapp,
+footer .whatsapp.whatsapp,
+footer .direccion.whatsapp {
+  background-image: url(../assets/whatsapp.png);
+}
+footer .telefono.direccion,
+footer .correo.direccion,
+footer .whatsapp.direccion,
+footer .direccion.direccion {
+  background-image: url(../assets/location_on.png);
+}
+
+.copy {
+  background-color: #190945;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 0;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .copy {
+    font-weight: 550;
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1040px) {
+  .copy {
+    font-weight: 550;
+    font-size: 1.2rem;
+  }
+}/*# sourceMappingURL=styles.css.map */

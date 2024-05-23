@@ -1,0 +1,129 @@
+html {
+	font-size: 62.5%;
+	/*1 rem = 10px*/
+body {
+	background-color: $blanco;
+	overflow-x: hidden;
+    main {
+        .card-cursos {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 0;
+            margin: 4rem;
+            border-radius: 0 1rem 1rem 0;
+            border: 0.1rem solid $naranja-oscuro; 
+            &-2 {
+            @extend .card-cursos;
+            border-radius: 1rem 0 0 1rem;
+            }
+            @include mobile {
+                display: grid;
+                grid-template-columns: 1fr;
+                top:0;
+                margin-right:3rem;
+            }
+            .grid.card {
+                padding: 2rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            .fotos-eventos {
+                width: 100%;
+                padding: 0;
+                margin: 0;
+                height: 100;
+                @include mobile {
+                    width: 90%;
+                }
+            }
+            .titles-card-e{
+                padding-top: 1rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
+                padding-bottom: 0;
+                margin-top:10rem;
+                font-size: 5rem;
+                color:$naranja-oscuro;
+                font-weight: 700;
+                @include mobile {
+                    font-size: 3rem;
+                }
+                }
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                .info-group {
+                    display: flex;
+                    align-items: center;
+                    flex: 1 1 100%;
+                    h4 {
+                        margin: 0;
+                    }
+                    p {
+                        margin: 0;
+                        padding-left: 1rem; 
+                        font-size: 1.3rem;
+                        font-weight: 500;
+                        }
+                    .text-e{
+                        text-align: left;
+                        font-family: $font-family;
+                        font-weight: 400;
+                        font-size: 1.5rem;
+                        color: $morado-oscuro;
+                        padding:0;
+                        margin:0;
+                        }
+                    .subtitles-card-e{
+                        display: inline; 
+                        margin-right: 1rem;
+                        padding-top: 5rem;
+                        padding-left:0;
+                        padding-right: 2rem;
+                        padding-bottom: 0;
+                        margin-top:5rem;
+                        }
+                    .icono-h,
+                    .icono-l,
+                    .icono-e {
+                        background-repeat: no-repeat;
+                        background-position: left center;
+                        padding-left: 2.5rem;
+                        margin-left: 2rem;
+                        margin-right: 0;    
+                        &.icono-h {
+                            background-image: url(../assets/horario.png);
+                            }
+                            &.icono-l {
+                            background-image: url(../assets/location_on2.png);
+                            }
+                            &.icono-e {
+                            background-image: url(../assets/entrada.png);
+                            }
+                        }
+                    }
+                }
+                .boton-card-e{
+                    float:left;
+                    font-family: $font-family;
+                    font-size: 1.8rem;
+                    text-decoration: none;
+                    border-radius: 8px;
+                    background-color: $naranja-claro;
+                    color: $blanco;
+                    font-weight: 600;
+                    margin-top:5rem;
+                    margin-left:2rem;          
+                    margin-bottom: 0.2rem;
+                    border: 0.2rem solid $naranja-oscuro; 
+                    padding: 1rem 1.5rem;
+                    &:hover {
+                        background-color: $naranja-oscuro;
+                        color:$blanco;
+                        }
+                }
+            }
+        }
+    }
+}
