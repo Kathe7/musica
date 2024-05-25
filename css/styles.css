@@ -26,6 +26,11 @@ nav .boton {
 nav .boton:hover {
   background-color: #FA3C23;
 }
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  nav .boton {
+    margin-left: 0;
+  }
+}
 nav .boton--nav {
   font-size: 1.4rem;
   font-weight: 500;
@@ -34,7 +39,7 @@ nav .boton--nav {
   vertical-align: middle;
   margin-top: 1.5rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   nav .boton--nav {
     margin-left: 0;
   }
@@ -45,7 +50,7 @@ nav .logo {
   padding-bottom: 1rem;
   padding-left: 4rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   nav .logo {
     padding-top: 1rem;
     padding-right: 1rem;
@@ -75,7 +80,7 @@ html body header .caja-1 {
   display: flex;
   flex-direction: row;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body header .caja-1 {
     display: grid;
     grid-template-columns: 1fr;
@@ -95,7 +100,7 @@ html body header .caja-1 .header {
   margin-right: 0;
   height: 300px;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body header .caja-1 .header {
     height: 320px;
     margin-top: 3rem;
@@ -109,18 +114,18 @@ html body header .caja-1 .header {
     padding-bottom: 1rem;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1040px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   html body header .caja-1 .header {
     width: 100%;
     height: 300px;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body header .caja-1 .header .mujer-tablet {
     display: none;
   }
 }
-@media screen and (min-width: 1041px) {
+@media screen and (min-width: 1024px) {
   html body header .caja-1 .header .mujer-tablet {
     display: none;
   }
@@ -136,7 +141,7 @@ html body header .caja-1 .header .titles--white {
   padding-left: 4rem;
   padding-bottom: 0.5rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body header .caja-1 .header .titles--white {
     font-weight: 600;
     font-size: 2.3rem;
@@ -146,7 +151,7 @@ html body header .caja-1 .header .titles--white {
     padding-bottom: 0.5rem;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1040px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   html body header .caja-1 .header .titles--white {
     font-weight: 580;
     font-size: 2.2rem;
@@ -165,14 +170,14 @@ html body header .caja-1 .header .text-blanco {
   padding-bottom: 2rem;
   padding-right: 2rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body header .caja-1 .header .text-blanco {
     font-weight: 400;
     font-size: 1.2rem;
     padding: 1rem;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1040px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   html body header .caja-1 .header .text-blanco {
     font-weight: 400;
     font-size: 1.3rem;
@@ -199,14 +204,14 @@ html body header .caja-1 .header .boton {
 html body header .caja-1 .header .boton:hover {
   background-color: #FA3C23;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body header .caja-1 .header .boton {
     padding: 0.5rem 5rem;
-    margin-left: 1rem;
+    margin-left: none;
     margin-right: 1rem;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1040px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   html body header .caja-1 .header .boton {
     padding: 0.5rem 5rem;
     margin-left: 2rem;
@@ -221,17 +226,17 @@ html body header .caja-1 .foto-header .foto-mujer {
   height: 30rem;
   border-radius: 0 1rem 1rem 0;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body header .caja-1 .foto-header .foto-mujer {
     width: 83%;
     margin-top: 0;
     margin-right: 3rem;
     margin-left: 3rem;
-    height: 150px;
+    height: 180px;
     border-radius: 0 0 1rem 1rem;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1040px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   html body header .caja-1 .foto-header .foto-mujer {
     display: none;
   }
@@ -244,12 +249,12 @@ html body header .caja-1 .foto-header .mujer-tablet {
   height: 30rem;
   border-radius: 0 1rem 1rem 0;
 }
-@media screen and (min-width: 1041px) {
+@media screen and (min-width: 1024px) {
   html body header .caja-1 .foto-header .mujer-tablet {
     display: none;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body header .caja-1 .foto-header .mujer-tablet {
     display: none;
   }
@@ -265,7 +270,7 @@ html body main article .titles {
   padding-left: 4rem;
   padding-bottom: 0.5rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main article .titles {
     font-weight: 700;
     font-size: 2.2rem;
@@ -284,7 +289,7 @@ html body main article .subtitles {
   padding-left: 40px;
   padding-bottom: 20px;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main article .subtitles {
     font-weight: 650;
     font-size: 1.5rem;
@@ -294,7 +299,7 @@ html body main article .subtitles {
     padding-bottom: 0.5rem;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1040px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   html body main article .subtitles {
     padding-right: 3rem;
   }
@@ -312,7 +317,7 @@ html body main .grid-cursos {
   padding-left: 4rem;
   padding-bottom: 0.5rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main .grid-cursos {
     display: grid;
     grid-template-columns: 1fr;
@@ -323,7 +328,7 @@ html body main .grid-cursos {
     display: none;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1040px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   html body main .grid-cursos {
     display: grid;
     grid-template-columns: 1fr;
@@ -342,9 +347,14 @@ html body main .grid-cursos .card-naranja, html body main .grid-cursos .card-mor
   padding: 2rem;
   box-sizing: border-box;
 }
-@media screen and (min-width: 768px) and (max-width: 1040px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   html body main .grid-cursos .card-naranja, html body main .grid-cursos .card-morada {
-    height: 200px;
+    height: 20rem;
+  }
+}
+@media screen and (max-width: 374px) {
+  html body main .grid-cursos .card-naranja, html body main .grid-cursos .card-morada {
+    height: 30rem;
   }
 }
 html body main .grid-cursos .card-naranja .texto-fondo .title--card-1, html body main .grid-cursos .card-morada .texto-fondo .title--card-1 {
@@ -353,7 +363,7 @@ html body main .grid-cursos .card-naranja .texto-fondo .title--card-1, html body
   color: blanco;
   padding: 0.6rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main .grid-cursos .card-naranja .texto-fondo .title--card-1, html body main .grid-cursos .card-morada .texto-fondo .title--card-1 {
     width: 83%;
     font-weight: 700;
@@ -367,18 +377,18 @@ html body main .grid-cursos .card-naranja .texto-fondo .text-blanco, html body m
   font-weight: 400;
   font-size: 1.5rem;
   color: white;
-  padding-left: 4rem;
+  padding-left: 1rem;
   padding-bottom: 2rem;
   padding-right: 2rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main .grid-cursos .card-naranja .texto-fondo .text-blanco, html body main .grid-cursos .card-morada .texto-fondo .text-blanco {
     font-weight: 400;
     font-size: 1.2rem;
     padding: 1rem;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1040px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   html body main .grid-cursos .card-naranja .texto-fondo .text-blanco, html body main .grid-cursos .card-morada .texto-fondo .text-blanco {
     padding-left: 1rem;
     padding-bottom: 0;
@@ -394,12 +404,12 @@ html body main .grid-cursos .card-naranja .flecha-enlace, html body main .grid-c
   margin-right: 2rem;
   float: right;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main .grid-cursos .card-naranja .flecha-enlace, html body main .grid-cursos .card-morada .flecha-enlace {
     padding-top: 0.5rem;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1040px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   html body main .grid-cursos .card-naranja .flecha-enlace, html body main .grid-cursos .card-morada .flecha-enlace {
     padding: 0;
   }
@@ -412,7 +422,7 @@ html body .contactanos {
   border-top-right-radius: 1rem;
   border-bottom: none;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body .contactanos {
     margin-left: 3.5rem;
     margin-right: 3rem;
@@ -421,7 +431,7 @@ html body .contactanos {
     display: none;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1040px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   html body .contactanos .foto-form {
     display: none;
   }
@@ -437,7 +447,7 @@ html body .contactanos .titles {
   padding-left: 4rem;
   padding-bottom: 0.5rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body .contactanos .titles {
     font-weight: 700;
     font-size: 2.2rem;
@@ -456,7 +466,7 @@ html body .contactanos .subtitles {
   padding-left: 40px;
   padding-bottom: 20px;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body .contactanos .subtitles {
     font-weight: 650;
     font-size: 1.5rem;
@@ -466,7 +476,7 @@ html body .contactanos .subtitles {
     padding-bottom: 0.5rem;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1040px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   html body .contactanos .subtitles {
     padding-right: 3rem;
   }
@@ -485,7 +495,7 @@ html body .contactanos .form .text-form {
   padding-right: 0;
   font-weight: 600;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body .contactanos .form .text-form {
     margin-bottom: 0;
     padding-top: 1rem;
@@ -503,7 +513,7 @@ html body .contactanos .form form {
   background-color: #D9D0F0;
   border-radius: 1rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body .contactanos .form form {
     max-width: 100%;
     font-size: 1.2rem;
@@ -519,7 +529,7 @@ html body .contactanos .form form input {
   padding: 1rem;
   margin-bottom: 0.2rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body .contactanos .form form input {
     margin: 1rem;
     outline: none;
@@ -541,7 +551,7 @@ html body .contactanos .form form textarea {
   width: 520px;
   padding: 15px;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body .contactanos .form form textarea {
     margin: 1rem;
     outline: none;
@@ -567,7 +577,7 @@ html body .contactanos .form form .boton--form {
   margin-right: 1rem;
   float: right;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body .contactanos .form form .boton--form {
     margin-left: 1rem;
     margin-right: 0.5rem;
@@ -601,7 +611,7 @@ html body header .foto-escuela {
   margin-right: 4rem;
   border-radius: 0.8rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body header .foto-escuela {
     margin-left: 3rem;
     margin-right: 3rem;
@@ -619,12 +629,12 @@ html body header .foto-escuela .titles {
   padding-left: 4rem;
   padding-bottom: 0.5rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body header .foto-escuela .titles {
     text-align: center;
     font-weight: 700;
     font-size: 2.5rem;
-    padding: 0;
+    padding: 0.2rem;
   }
 }
 html body main {
@@ -641,7 +651,7 @@ html body main .titles {
   padding-left: 4rem;
   padding-bottom: 0.5rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main .titles {
     font-weight: 700;
     font-size: 2.2rem;
@@ -649,6 +659,11 @@ html body main .titles {
     padding-right: 3rem;
     padding-left: 3rem;
     padding-bottom: 0.5rem;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .titles {
+    padding-top: 0;
   }
 }
 html body main .text {
@@ -659,13 +674,20 @@ html body main .text {
   padding-left: 4rem;
   padding-bottom: 2rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main .text {
     font-weight: 400;
     font-size: 1.2rem;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-bottom: 0;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .text {
+    padding-right: 2.5rem;
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
   }
 }
 html body main .areas-escuela {
@@ -680,7 +702,7 @@ html body main .areas-escuela {
   margin-right: 4rem;
   padding: 1.5rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main .areas-escuela {
     border-radius: 1rem;
     justify-content: center;
@@ -699,6 +721,15 @@ html body main .areas-escuela {
     margin: 0.2rem;
   }
 }
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .areas-escuela {
+    margin-right: 2.5rem;
+  }
+  html body main .areas-escuela img {
+    height: 8rem;
+    margin: 1rem;
+  }
+}
 html body main .areas-escuela .titles {
   text-align: left;
   font-family: "Montserrat", sans-serif;
@@ -710,7 +741,7 @@ html body main .areas-escuela .titles {
   padding-left: 4rem;
   padding-bottom: 0.5rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main .areas-escuela .titles {
     font-weight: 700;
     font-size: 2.2rem;
@@ -720,14 +751,19 @@ html body main .areas-escuela .titles {
     padding-bottom: 0.5rem;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main .foto-mn {
     display: flex;
     flex-direction: column;
-    height: 230px;
+    height: 27rem;
     margin: 0;
     padding-left: 3rem;
     padding-bottom: 2rem;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .foto-mn {
+    display: none;
   }
 }
 html body main .boton {
@@ -748,12 +784,17 @@ html body main .boton {
 html body main .boton:hover {
   background-color: #FA3C23;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main .boton {
-    padding: 1rem 6.5rem;
+    padding: 1rem 9rem;
     margin-left: 3rem;
     margin-right: 0;
     width: 91%;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .boton {
+    margin-top: 2rem;
   }
 }
 
@@ -776,7 +817,7 @@ html body main .card-cursos, html body main .card-cursos-2 {
 html body main .card-cursos-2 {
   border-radius: 1rem 0 0 1rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main .card-cursos, html body main .card-cursos-2 {
     display: grid;
     grid-template-columns: 1fr;
@@ -796,7 +837,7 @@ html body main .card-cursos .fotos-eventos, html body main .card-cursos-2 .fotos
   margin: 0;
   height: 100;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main .card-cursos .fotos-eventos, html body main .card-cursos-2 .fotos-eventos {
     width: 90%;
   }
@@ -811,7 +852,7 @@ html body main .card-cursos .titles-card-e, html body main .card-cursos-2 .title
   color: #FF543E;
   font-weight: 700;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main .card-cursos .titles-card-e, html body main .card-cursos-2 .titles-card-e {
     font-size: 3rem;
   }
@@ -925,13 +966,21 @@ html body header .caja .card-2 {
   margin-right: 55rem;
   margin-left: 4rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body header .caja .card-2 {
-    position: absolute;
     padding: 1rem;
     margin-top: 5rem;
     margin-left: 3rem;
     width: 82%;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body header .caja .card-2 {
+    padding: 1rem;
+    margin-right: 0;
+    margin-top: 8rem;
+    margin-left: 12rem;
+    width: 70%;
   }
 }
 html body header .caja .hombre-guitarra {
@@ -943,13 +992,21 @@ html body header .caja .hombre-guitarra {
   margin-bottom: 1.5rem;
   margin-right: 5rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body header .caja .hombre-guitarra {
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 3rem;
-    margin-bottom: 30rem;
-    height: 165px;
+    margin-bottom: 23rem;
+    height: 195px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body header .caja .hombre-guitarra {
+    margin-bottom: 5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    height: 400px;
   }
 }
 html body header .caja .titles--morado {
@@ -963,7 +1020,7 @@ html body header .caja .titles--morado {
   padding-left: 1rem;
   padding-bottom: 0.5rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body header .caja .titles--morado {
     text-align: center;
     font-size: 2.3rem;
@@ -981,7 +1038,7 @@ html body header .caja .subtitles-c {
   padding-left: 1rem;
   padding-bottom: 0.5rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body header .caja .subtitles-c {
     text-align: center;
     font-weight: 800;
@@ -1001,7 +1058,7 @@ html body header .caja a {
   color: #190945;
   font-weight: 600;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body header .caja a {
     font-weight: 600;
     font-size: 1.5rem;
@@ -1019,41 +1076,27 @@ html body main .card-cursos, html body main .card-cursos-2 {
 html body main .card-cursos-2 {
   border-radius: 1rem 0 0 1rem;
 }
-html body main .card-cursos .grid.card, html body main .card-cursos-2 .grid.card {
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-html body main .card-cursos .foto-izq, html body main .card-cursos-2 .foto-izq {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  height: 100;
-  border-radius: 0 8rem 8rem 0;
-}
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main .card-cursos .foto-izq, html body main .card-cursos-2 .foto-izq {
     display: none;
   }
 }
-html body main .card-cursos .foto-der, html body main .card-cursos-2 .foto-der {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  height: 100;
-  border-radius: 8rem 0rem 0rem 8rem;
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .card-cursos .foto-izq, html body main .card-cursos-2 .foto-izq {
+    display: none;
+  }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main .card-cursos .foto-der, html body main .card-cursos-2 .foto-der {
     display: none;
   }
 }
-html body main .card-cursos .foto-mobile, html body main .card-cursos-2 .foto-mobile {
-  width: 100%;
-  border-radius: 1rem 1rem 2rem 2rem;
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .card-cursos .foto-der, html body main .card-cursos-2 .foto-der {
+    display: none;
+  }
 }
-@media screen and (min-width: 1041px) {
+@media screen and (min-width: 1024px) {
   html body main .card-cursos .foto-mobile, html body main .card-cursos-2 .foto-mobile {
     display: none;
   }
@@ -1158,7 +1201,7 @@ html body header .caja {
   display: flex;
   flex-direction: row;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body header .caja {
     display: grid;
     grid-template-columns: 1fr;
@@ -1173,7 +1216,7 @@ html body header .caja .foto-header .foto-np {
   height: 28rem;
   border-radius: 0 1rem 1rem 0;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body header .caja .foto-header .foto-np {
     width: 80%;
     margin-top: 0;
@@ -1198,7 +1241,7 @@ html body header .caja .header-2 {
   margin-right: 0;
   height: 280px;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body header .caja .header-2 {
     height: 305px;
     margin-top: 3rem;
@@ -1223,7 +1266,7 @@ html body header .caja .header-2 .titles--white {
   padding-left: 40px;
   padding-bottom: 5px;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body header .caja .header-2 .titles--white {
     font-weight: 600;
     font-size: 2.3rem;
@@ -1243,7 +1286,7 @@ html body header .caja .header-2 .text-blanco {
   padding-right: 4rem;
   padding-bottom: 20px;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body header .caja .header-2 .text-blanco {
     font-weight: 400;
     font-size: 1.2rem;
@@ -1254,14 +1297,19 @@ html body main .card-cursos, html body main .card-cursos-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 4rem;
-  border-radius: 0 1rem 1rem 0;
+  border-radius: 1rem 1rem 1rem 1rem;
   border: 1px solid #FF543E;
 }
-html body main .card-cursos-2 {
-  border-radius: 1rem 0 0 1rem;
+@media screen and (max-width: 374px) {
+  html body main .card-cursos, html body main .card-cursos-2 {
+    border-radius: 1rem 1rem 1rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 3rem;
+  }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  html body main .card-cursos-2 {
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .card-cursos, html body main .card-cursos-2 {
     border-radius: 1rem 1rem 1rem 1rem;
     display: grid;
     grid-template-columns: 1fr;
@@ -1269,9 +1317,10 @@ html body main .card-cursos-2 {
   }
 }
 html body main .card-cursos .grid.card, html body main .card-cursos-2 .grid.card {
-  position: relative;
+  padding: 2rem;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 html body main .card-cursos .logos-profes, html body main .card-cursos-2 .logos-profes {
   display: grid;
@@ -1281,7 +1330,7 @@ html body main .card-cursos .logos-profes, html body main .card-cursos-2 .logos-
   margin-top: 16rem;
   margin-right: 2.5rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main .card-cursos .logos-profes, html body main .card-cursos-2 .logos-profes {
     display: none;
   }
@@ -1291,9 +1340,9 @@ html body main .card-cursos .foto-izq, html body main .card-cursos-2 .foto-izq {
   padding: 0;
   margin: 0;
   height: 100;
-  border-radius: 0 8rem 8rem 0;
+  border-radius: 1rem 8rem 8rem 1rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main .card-cursos .foto-izq, html body main .card-cursos-2 .foto-izq {
     display: none;
   }
@@ -1303,9 +1352,9 @@ html body main .card-cursos .foto-der, html body main .card-cursos-2 .foto-der {
   padding: 0;
   margin: 0;
   height: 100;
-  border-radius: 8rem 0rem 0rem 8rem;
+  border-radius: 8rem 1rem 1rem 8rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main .card-cursos .foto-der, html body main .card-cursos-2 .foto-der {
     display: none;
   }
@@ -1314,7 +1363,7 @@ html body main .card-cursos .foto-mobile, html body main .card-cursos-2 .foto-mo
   width: 100%;
   border-radius: 1rem 1rem 2rem 2rem;
 }
-@media screen and (min-width: 1041px) {
+@media screen and (min-width: 1024px) {
   html body main .card-cursos .foto-mobile, html body main .card-cursos-2 .foto-mobile {
     display: none;
   }
@@ -1329,7 +1378,7 @@ html body main .card-cursos .titles-card-p, html body main .card-cursos-2 .title
   color: #FF543E;
   font-weight: 700;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main .card-cursos .titles-card-p, html body main .card-cursos-2 .titles-card-p {
     font-weight: 700;
     font-size: 2.2rem;
@@ -1382,7 +1431,7 @@ html body main .card-cursos .boton-card, html body main .card-cursos-2 .boton-ca
   border: 0.2rem solid #FF543E;
   padding: 1rem 1.5rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   html body main .card-cursos .boton-card, html body main .card-cursos-2 .boton-card {
     float: left;
     padding: 0.5rem 4rem;
@@ -1390,6 +1439,11 @@ html body main .card-cursos .boton-card, html body main .card-cursos-2 .boton-ca
     margin-right: 2rem;
     margin-bottom: 1rem;
     width: 85%;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .card-cursos .boton-card, html body main .card-cursos-2 .boton-card {
+    margin-bottom: 1rem;
   }
 }
 html body main .card-cursos .boton-card:hover, html body main .card-cursos-2 .boton-card:hover {
@@ -1409,20 +1463,20 @@ footer {
   padding: 2rem;
   margin-top: 0;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   footer {
     display: grid;
     grid-template-columns: 1fr;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   footer .logo-footer {
     height: 110px;
-    padding-left: 8.5rem;
+    padding-left: 11rem;
     padding-top: 1rem;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1040px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   footer .logo-footer {
     height: 100px;
   }
@@ -1438,18 +1492,18 @@ footer .lista a {
   font-size: 1.5rem;
   text-decoration: none;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   footer .lista a {
     padding-left: 0;
     padding-top: 1rem;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1040px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   footer .lista a {
     font-size: 1.2rem;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   footer .lista li {
     padding-left: 0;
     margin: 0;
@@ -1461,9 +1515,9 @@ footer .lista a {
     list-style: none;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   footer .logos-redes img {
-    padding-left: 1.2rem;
+    padding-left: 2.3rem;
   }
 }
 footer .text--footer {
@@ -1474,12 +1528,12 @@ footer .text--footer {
   padding-left: 0px;
   padding-bottom: 1rem;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   footer .text--footer {
     display: none;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1040px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   footer .text--footer {
     font-size: 1.2rem;
   }
@@ -1494,7 +1548,7 @@ footer .direccion {
   padding-left: 3rem;
   color: white;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   footer .telefono,
   footer .correo,
   footer .whatsapp,
@@ -1502,7 +1556,7 @@ footer .direccion {
     display: none;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1040px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   footer .telefono,
   footer .correo,
   footer .whatsapp,
@@ -1546,13 +1600,13 @@ footer .direccion.direccion {
   padding-bottom: 10px;
   margin-bottom: 0;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 374px) {
   .copy {
     font-weight: 550;
     font-size: 1.3rem;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1040px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   .copy {
     font-weight: 550;
     font-size: 1.2rem;

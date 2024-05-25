@@ -116,7 +116,7 @@ body {
 					}
 					@include mobile {
 						padding: 0.5rem 5rem;
-						margin-left: 1rem;
+						margin-left: none;
 						margin-right: 1rem;
 					}
 					@include tablet {
@@ -139,7 +139,7 @@ body {
 						margin-top:0;
 						margin-right: 3rem;
 						margin-left: 3rem;
-						height:150px;
+						height:180px;
 						border-radius:0 0 1rem 1rem;
 						}
 					@include tablet {
@@ -243,7 +243,10 @@ body {
 				padding: 2rem;
 				box-sizing: border-box;
 				@include tablet {
-					height: 200px;
+					height: 20rem;
+				}
+				@include mobile {
+					height: 30rem;
 				}
 					.texto-fondo {
 						.title--card-1 {
@@ -264,7 +267,7 @@ body {
 						font-weight: 400;
 						font-size: 1.5rem;
 						color: $blanco;
-						padding-left: 4rem;
+						padding-left: 1rem;
 						padding-bottom: 2rem;
 						padding-right: 2rem;
 							@include mobile {

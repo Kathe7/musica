@@ -16,7 +16,7 @@ footer {
     .logo-footer {
             @include mobile{
                 height: 110px;
-                padding-left: 8.5rem;
+                padding-left: 11rem;
                 padding-top: 1rem;
             }
             @include tablet {
@@ -56,7 +56,7 @@ footer {
     .logos-redes {
         img{
             @include mobile {
-                padding-left: 1.2rem;
+                padding-left: 2.3rem;
                 }
             }
         }

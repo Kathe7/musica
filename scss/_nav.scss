@@ -19,6 +19,9 @@ nav {
             &:hover {
                 background-color: $hover;
             }
+            @include tablet {
+                margin-left: 0;
+            }
         }
     .boton--nav {
         font-size: 1.4rem;
