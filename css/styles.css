@@ -219,7 +219,7 @@ html body header .caja-1 .header .boton:hover {
   }
 }
 html body header .caja-1 .foto-header .foto-mujer {
-  background-color: #3B286D;
+  background: linear-gradient(305deg, hsl(256, 77%, 15%) 0%, hsl(256, 91%, 19%) 25%, hsl(257, 63%, 36%) 50%, hsl(256, 52%, 59%) 75%, hsl(254, 59%, 64%) 100%);
   margin-top: 5rem;
   margin-right: 4rem;
   margin-bottom: 1.5rem;
@@ -242,7 +242,8 @@ html body header .caja-1 .foto-header .foto-mujer {
   }
 }
 html body header .caja-1 .foto-header .mujer-tablet {
-  background-color: #3B286D;
+  background-color: rgb(25, 9, 69);
+  background: linear-gradient(305deg, hsl(256, 77%, 15%) 0%, hsl(256, 91%, 19%) 25%, hsl(257, 63%, 36%) 50%, hsl(256, 52%, 59%) 75%, hsl(254, 59%, 64%) 100%);
   margin-top: 5rem;
   margin-right: 4rem;
   margin-bottom: 1.5rem;
@@ -1359,7 +1360,7 @@ html body header .caja {
   }
 }
 html body header .caja .foto-header .foto-np {
-  background-color: #FF543E;
+  background: linear-gradient(305deg, hsl(7, 55%, 56%) 0%, hsl(7, 60%, 60%) 25%, hsl(7, 73%, 58%) 50%, hsl(7, 74%, 50%) 75%, hsl(7, 95%, 38%) 100%);
   border-radius: 0.8px;
   margin-top: 5rem;
   margin-right: 4rem;
@@ -1427,6 +1428,11 @@ html body header .caja .header-2 .titles--white {
     padding-bottom: 0.5rem;
   }
 }
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body header .caja .header-2 .titles--white {
+    padding-top: 2rem;
+  }
+}
 html body header .caja .header-2 .text-blanco {
   text-align: left;
   font-family: "Montserrat", sans-serif;
@@ -1442,6 +1448,15 @@ html body header .caja .header-2 .text-blanco {
     font-weight: 400;
     font-size: 1.2rem;
     padding: 1rem;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body header .caja .header-2 .text-blanco {
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+    padding-right: 2rem;
   }
 }
 html body main .card-cursos, html body main .card-cursos-2 {

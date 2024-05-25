@@ -14,7 +14,14 @@ body {
 			}
 			.foto-header {
 				.foto-np {
-					background-color:$naranja-oscuro;
+					background: linear-gradient(
+                        305deg,
+                        hsl(7deg 55% 56%) 0%,
+                        hsl(7deg 60% 60%) 25%,
+                        hsl(7deg 73% 58%) 50%,
+                        hsl(7deg 74% 50%) 75%,
+                        hsl(7deg 95% 38%) 100%
+                    );
 					border-radius: 0.8px;
 					margin-top: 5rem;
 					margin-right:4rem;
@@ -75,6 +82,9 @@ body {
                             padding-left: 1rem;
                             padding-bottom: 0.5rem;
                         }
+                        @include tablet {
+                            padding-top: 2rem;
+                        }
                     }
                     .text-blanco {
                         text-align: left;
@@ -89,6 +99,13 @@ body {
                             font-weight: 400;
                             font-size: 1.2rem;
                             padding:1rem;
+                        }
+                        @include tablet {
+                            font-weight: 400;
+                            font-size: 1.3rem;
+                            padding-left: 2rem;
+                            padding-bottom: 0.5rem;
+                            padding-right: 2rem;
                         }
                     }
 				}

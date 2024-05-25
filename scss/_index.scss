@@ -128,7 +128,14 @@ body {
 			}
 			.foto-header {
 				.foto-mujer{
-					background-color:$morado-claro;
+					background:linear-gradient(
+						305deg,
+						hsl(256deg 77% 15%) 0%,
+						hsl(256deg 91% 19%) 25%,
+						hsl(257deg 63% 36%) 50%,
+						hsl(256deg 52% 59%) 75%,
+						hsl(254, 59%, 64%) 100%
+					);
 					margin-top: 5rem;
 					margin-right:4rem;
 					margin-bottom:1.5rem;
@@ -147,7 +154,15 @@ body {
 					}
 					}
 				.mujer-tablet {
-					background-color:$morado-claro;
+					background-color:rgb(25,9,69);
+					background:linear-gradient(
+						305deg,
+						hsl(256deg 77% 15%) 0%,
+						hsl(256deg 91% 19%) 25%,
+						hsl(257deg 63% 36%) 50%,
+						hsl(256deg 52% 59%) 75%,
+						hsl(254, 59%, 64%) 100%
+					);
 					margin-top: 5rem;
 					margin-right:4rem;
 					margin-bottom:1.5rem;
