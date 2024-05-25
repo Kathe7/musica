@@ -806,6 +806,122 @@ html body {
   background-color: white;
   overflow-x: hidden;
 }
+html body header .caja {
+  position: relative;
+}
+html body header .caja .card-3 {
+  position: absolute;
+  z-index: 1;
+  top: 15%;
+  left: 0;
+  border: 1px solid #190945;
+  border-radius: 2rem;
+  padding: 2.5rem;
+  display: inline-block;
+  background-color: white;
+  margin-top: 2rem;
+  margin-right: 55rem;
+  margin-left: 4rem;
+}
+@media screen and (max-width: 374px) {
+  html body header .caja .card-3 {
+    padding: 1rem;
+    margin-top: 10rem;
+    margin-left: 3rem;
+    width: 82%;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body header .caja .card-3 {
+    padding: 1rem;
+    margin-right: 0;
+    margin-top: 20rem;
+    margin-left: 12rem;
+    width: 70%;
+  }
+}
+html body header .caja .pareja-musicos {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-top: 5rem;
+  margin-left: 63rem;
+  margin-bottom: 1.5rem;
+  margin-right: 5rem;
+}
+@media screen and (max-width: 374px) {
+  html body header .caja .pareja-musicos {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 20rem;
+    height: 195px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body header .caja .pareja-musicos {
+    margin-bottom: 5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    height: 400px;
+  }
+}
+html body header .caja .titles--morado {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #190945;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+@media screen and (max-width: 374px) {
+  html body header .caja .titles--morado {
+    text-align: center;
+    font-size: 2.3rem;
+    padding: 0;
+  }
+}
+html body header .caja .subtitles-c {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #FF543E;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+@media screen and (max-width: 374px) {
+  html body header .caja .subtitles-c {
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.6rem;
+    padding: 0;
+  }
+}
+html body header .caja .text--morado {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #190945;
+  padding-left: 1rem;
+  padding-bottom: 0;
+}
+html body header .caja a {
+  color: #190945;
+  font-weight: 600;
+}
+@media screen and (max-width: 374px) {
+  html body header .caja a {
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 0;
+  }
+}
 html body main .card-cursos, html body main .card-cursos-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -855,6 +971,12 @@ html body main .card-cursos .titles-card-e, html body main .card-cursos-2 .title
 @media screen and (max-width: 374px) {
   html body main .card-cursos .titles-card-e, html body main .card-cursos-2 .titles-card-e {
     font-size: 3rem;
+    margin-top: 2rem;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .card-cursos .titles-card-e, html body main .card-cursos-2 .titles-card-e {
+    margin-top: 2rem;
   }
 }
 html body main .card-cursos .container, html body main .card-cursos-2 .container {
@@ -865,6 +987,11 @@ html body main .card-cursos .container .info-group, html body main .card-cursos-
   display: flex;
   align-items: center;
   flex: 1 1 100%;
+}
+@media screen and (max-width: 374px) {
+  html body main .card-cursos .container .info-group, html body main .card-cursos-2 .container .info-group {
+    align-items: unset;
+  }
 }
 html body main .card-cursos .container .info-group h4, html body main .card-cursos-2 .container .info-group h4 {
   margin: 0;
@@ -886,10 +1013,10 @@ html body main .card-cursos .container .info-group .text-e, html body main .card
 }
 html body main .card-cursos .container .info-group .subtitles-card-e, html body main .card-cursos-2 .container .info-group .subtitles-card-e {
   display: inline;
-  margin-right: 1rem;
+  margin-right: 0;
   padding-top: 5rem;
   padding-left: 0;
-  padding-right: 2rem;
+  padding-right: 0.5rem;
   padding-bottom: 0;
   margin-top: 5rem;
 }
@@ -921,7 +1048,17 @@ html body main .card-cursos .container .info-group .icono-e.icono-e,
 html body main .card-cursos-2 .container .info-group .icono-e.icono-e {
   background-image: url(../assets/entrada.png);
 }
+@media screen and (max-width: 374px) {
+  html body main .card-cursos .container .info-group .icono-h.icono-e,
+  html body main .card-cursos .container .info-group .icono-l.icono-e,
+  html body main .card-cursos .container .info-group .icono-e.icono-e,
+  html body main .card-cursos-2 .container .info-group .icono-e.icono-e {
+    background-position: unset;
+  }
+}
 html body main .card-cursos .boton-card-e, html body main .card-cursos-2 .boton-card-e {
+  display: flex;
+  justify-content: center;
   float: left;
   font-family: "Montserrat", sans-serif;
   font-size: 1.8rem;
@@ -939,6 +1076,20 @@ html body main .card-cursos .boton-card-e, html body main .card-cursos-2 .boton-
 html body main .card-cursos .boton-card-e:hover, html body main .card-cursos-2 .boton-card-e:hover {
   background-color: #FF543E;
   color: white;
+}
+@media screen and (max-width: 374px) {
+  html body main .card-cursos .boton-card-e, html body main .card-cursos-2 .boton-card-e {
+    padding: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    width: 85%;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .card-cursos .boton-card-e, html body main .card-cursos-2 .boton-card-e {
+    margin-bottom: 1rem;
+  }
 }
 
 html {
@@ -1335,6 +1486,11 @@ html body main .card-cursos .logos-profes, html body main .card-cursos-2 .logos-
     display: none;
   }
 }
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .card-cursos .logos-profes, html body main .card-cursos-2 .logos-profes {
+    margin-top: 3rem;
+  }
+}
 html body main .card-cursos .foto-izq, html body main .card-cursos-2 .foto-izq {
   width: 100%;
   padding: 0;
@@ -1384,9 +1540,15 @@ html body main .card-cursos .titles-card-p, html body main .card-cursos-2 .title
     font-size: 2.2rem;
     padding-top: 1.5rem;
     padding-right: 3rem;
-    padding-left: 3rem;
+    padding-left: 2rem;
     padding-bottom: 0.5rem;
     margin-top: 0.5rem;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .card-cursos .titles-card-p, html body main .card-cursos-2 .titles-card-p {
+    margin-top: 0;
+    padding-top: 1rem;
   }
 }
 html body main .card-cursos .text, html body main .card-cursos-2 .text {
@@ -1434,7 +1596,7 @@ html body main .card-cursos .boton-card, html body main .card-cursos-2 .boton-ca
 @media screen and (max-width: 374px) {
   html body main .card-cursos .boton-card, html body main .card-cursos-2 .boton-card {
     float: left;
-    padding: 0.5rem 4rem;
+    padding: 0.5rem;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 1rem;

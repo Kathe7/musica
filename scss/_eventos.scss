@@ -4,6 +4,110 @@ html {
 body {
 	background-color: $blanco;
 	overflow-x: hidden;
+    header {
+        .caja{
+            position: relative;
+            .card-3 {
+                position: absolute;
+                z-index: 1;
+                top: 15%;
+                left: 0;
+                border: 1px solid $morado-oscuro;
+                border-radius: 2rem;
+                padding: 2.5rem;
+                display: inline-block;
+                background-color: $blanco;
+                margin-top: 2rem;
+                margin-right: 55rem;
+                margin-left:4rem;
+                @include mobile {
+                    padding:1rem;
+                    margin-top: 10rem;
+                    margin-left: 3rem;
+                    width:82%;
+                }
+                @include tablet {
+                    padding:1rem;
+                    margin-right:0;
+                    margin-top: 20rem;
+                    margin-left:12rem;
+                    width:70%; 
+                }
+                }
+            .pareja-musicos {
+                position: relative;
+                top: 0;
+                left: 0;
+                margin-top: 5rem;
+                margin-left: 63rem;
+                margin-bottom: 1.5rem;
+                margin-right: 5rem;
+                @include mobile {
+                    margin-left: 2rem;
+                    margin-right:2rem;
+                    margin-top:3rem;
+                    margin-bottom:20rem;
+                    height: 195px;
+                }
+                @include tablet {
+                    margin-bottom: 5rem;
+                    margin-left: 4rem;
+                    margin-right: 4rem;
+                    height: 400px;
+                }
+                }
+            .titles--morado{
+                text-align: left;
+                font-family:$font-family;
+                font-weight: 700;
+                font-size: 3rem;
+                color:$morado-oscuro;
+                padding-top: 1rem;
+                padding-right: 1rem;
+                padding-left:1rem;
+                padding-bottom: 0.5rem;
+                @include mobile {
+                    text-align: center;
+                    font-size:2.3rem;
+                    padding:0;
+                }
+                }
+            .subtitles-c {
+                text-align: left;
+                font-family: $font-family;
+                font-weight: 700;
+                font-size: 3rem;
+                color: $naranja-oscuro;
+                padding-top: 1rem;
+                padding-right: 1rem;
+                padding-left: 1rem;
+                padding-bottom: 0.5rem;
+                @include mobile {
+                    text-align: center;
+                    font-weight: 800;
+                    font-size: 1.6rem;
+                    padding: 0;
+                }
+                }
+            .text--morado {
+                font-family:$font-family;
+                font-weight: 400;
+                font-size: 1.5rem;
+                color:$morado-oscuro;
+                padding-left:1rem;
+                padding-bottom:0;}
+                    a{
+                    color:$morado-oscuro;
+                    font-weight: 600;
+                    @include mobile {
+                        font-weight:600;
+                        font-size: 1.5rem;
+                        padding: 0;
+                        }
+                    }
+                }
+                
+            }
     main {
         .card-cursos {
             display: grid;
@@ -48,6 +152,10 @@ body {
                 font-weight: 700;
                 @include mobile {
                     font-size: 3rem;
+                    margin-top: 2rem;
+                }
+                @include tablet {
+                    margin-top: 2rem;
                 }
                 }
             .container {
@@ -57,6 +165,9 @@ body {
                     display: flex;
                     align-items: center;
                     flex: 1 1 100%;
+                    @include mobile {
+                        align-items: unset;
+                    }
                     h4 {
                         margin: 0;
                     }
@@ -77,10 +188,10 @@ body {
                         }
                     .subtitles-card-e{
                         display: inline; 
-                        margin-right: 1rem;
+                        margin-right: 0;
                         padding-top: 5rem;
                         padding-left:0;
-                        padding-right: 2rem;
+                        padding-right: 0.5rem;
                         padding-bottom: 0;
                         margin-top:5rem;
                         }
@@ -100,11 +211,16 @@ body {
                             }
                             &.icono-e {
                             background-image: url(../assets/entrada.png);
+                            @include mobile {
+                                background-position: unset;
+                            }
                             }
                         }
                     }
                 }
                 .boton-card-e{
+                    display: flex;
+                    justify-content: center;
                     float:left;
                     font-family: $font-family;
                     font-size: 1.8rem;
@@ -122,6 +238,16 @@ body {
                         background-color: $naranja-oscuro;
                         color:$blanco;
                         }
+                    @include mobile {
+                        padding:0.5rem;
+                        margin-left: 2rem;
+                        margin-right:2rem;
+                        margin-bottom: 1rem;
+                        width: 85%;
+                    }
+                    @include tablet {
+                        margin-bottom: 1rem;
+                    }
                 }
             }
         }
