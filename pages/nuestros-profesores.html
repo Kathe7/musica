@@ -6,6 +6,7 @@
     <link rel ="shortcut icon" href="../assets/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,11 +47,11 @@
     </nav>
         <!---section-bienvenida-->
         <div class="caja">
-            <div class="header-2">
+            <div class="header-2"data-aos="fade-up" data-aos-duration="3000">
                 <h1 class="titles titles--white">Profesores Eagle School</h1>
                     <p class="text-blanco">Tenemos un equipo de profesores experimentados y altamente cualificados que te brindarán una enseñanza excepcional en cada paso de tu camino para convertirte en un artista musical. Nuestros docentes están comprometidos en guiarte con pasión y dedicación hacia el éxito en tu carrera artística.</p>
             </div>
-            <div class="foto-header">
+            <div class="foto-header" data-aos="fade-up" data-aos-duration="3000">
                 <img class="foto-np" src="../assets/hombre-guitarra-rock.png" alt="hombre-rockero" title="hombre-rockero" />
             </div>
         </div>
@@ -59,7 +60,7 @@
     <!---cards-profes-->
 </article>
 <!---foto-descripcion-profe-tecnica-vocal-->
-<article class="card-cursos-2">
+<article class="card-cursos-2" data-aos="fade-up"data-aos-anchor-placement="top-bottom">
     <img class="foto-izq"src="../assets/camilo.png" alt="hombre-cantando" title="hombre-cantando" />
     <img class="foto-mobile"src="../assets/camilo-mobile.png" alt="hombre-cantando" title="hombre-cantando" />
     <div class="grid.card">
@@ -86,7 +87,7 @@
 </div>  
 </article>           
     <!---foto-descripcion-profe-bateria-->
-    <article class="card-cursos-2">
+    <article class="card-cursos-2"  data-aos="fade-up"data-aos-anchor-placement="top-bottom">
         <img class="foto-mobile" src="../assets/juliana-mobile.png" alt="mujer-tocando-la-guitarra" title="mujer-tocando-la-guitarra" />
         <div class="grid.card">
             <div class="logos-profes">
@@ -113,7 +114,7 @@
     <img class="foto-der" src="../assets/juliana.png" alt="mujer-tocando-la-bateria" title="mujer-tocando-la-bateria" />  
     </article>
     <!---foto-descripcion-profe-tecnica-vocal-->
-<article class="card-cursos-2">
+<article class="card-cursos-2"  data-aos="fade-up"data-aos-anchor-placement="top-bottom">
     <img class="foto-izq" src="../assets/marcela.png" alt="mujer-tocando-la-guitarra" title="mujer-tocando-la-guitarra" />
     <img class="foto-mobile" src="../assets/marcela-mobile.png" alt="mujer-tocando-la-guitarra" title="mujer-tocando-la-guitarra" />
     <div class="grid.card">
@@ -125,7 +126,7 @@
                 <img src="../assets/instagram.png" alt="instagram" />
             </a>
         </div>
-    <h2 class="titles-card-p" id="tecnica-vocal">Marcela Rojas</h2>
+    <h2 class="titles-card-p" id="guitarra">Marcela Rojas</h2>
     <h4><strong class="subtitles subtitles-card-2">Profesora de Guitarra</strong></h4>
     <p class="text">Guitarrista ,compositora y experta en arreglos musicales, con más de<strong> 18 años</strong>  experiencia en la industria musical.</p>
     <h4><strong class="subtitles subtitles-card-2">Mis logros incluyen</strong></h4>
@@ -140,7 +141,7 @@
 </div>  
 </article>           
     <!---foto-descripcion-profe-bateria-->
-    <article class="card-cursos-2">
+    <article class="card-cursos-2"  data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         <img class="foto-mobile"src="../assets/raul-mobile.png" alt="hombre-tocando-el-piano" title="hombre-tocando-el-piano" />
         <div class="grid.card">
             <div class="logos-profes">
@@ -151,7 +152,7 @@
                     <img src="../assets/instagram.png" alt="instagram" />
                 </a>
             </div>
-        <h2 class="titles-card-p" id="tecnica-vocal">Raúl Cepeda</h2>
+        <h2 class="titles-card-p" id="piano">Raúl Cepeda</h2>
         <h4><strong class="subtitles subtitles-card-2">Profesor de Piano</strong></h4>
         <p class="text">Pianista profesional y compositor con una carrera de más <strong>20 años</strong> de tocando en la Orquesta filarmónica y  eventos internacionales.</p>
         <h4><strong class="subtitles subtitles-card-2">Mis logros incluyen</strong></h4>
@@ -212,5 +213,9 @@
     <h4 class="copy">© Copyright 2024 Todos Los derechos reservados</h4>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
