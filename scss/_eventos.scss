@@ -5,35 +5,6 @@ body {
 	background-color: $blanco;
 	overflow-x: hidden;
     header {
-        .caja{
-            position: relative;
-            .card-3 {
-                position: absolute;
-                z-index: 1;
-                top: 15%;
-                left: 0;
-                border: 1px solid $morado-oscuro;
-                border-radius: 2rem;
-                padding: 2.5rem;
-                display: inline-block;
-                background-color: $blanco;
-                margin-top: 2rem;
-                margin-right: 55rem;
-                margin-left:4rem;
-                @include mobile {
-                    padding:1rem;
-                    margin-top: 10rem;
-                    margin-left: 3rem;
-                    width:82%;
-                }
-                @include tablet {
-                    padding:1rem;
-                    margin-right:0;
-                    margin-top: 20rem;
-                    margin-left:12rem;
-                    width:70%; 
-                }
-                }
             .pareja-musicos {
                 position: relative;
                 top: 0;
@@ -109,47 +80,6 @@ body {
                 
             }
     main {
-        .card-cursos {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            padding: 0;
-            margin: 4rem;
-            border-radius: 0 1rem 1rem 0;
-            border: 0.1rem solid $naranja-oscuro; 
-            &-2 {
-            @extend .card-cursos;
-            border-radius: 1rem 0 0 1rem;
-            }
-            @include mobile {
-                display: grid;
-                grid-template-columns: 1fr;
-                top:0;
-                margin-right:3rem;
-            }
-            .grid.card {
-                padding: 2rem;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-            }
-            .fotos-eventos {
-                width: 100%;
-                padding: 0;
-                margin: 0;
-                height: 100;
-                @include mobile {
-                    width: 90%;
-                }
-            }
-            .titles-card-p {
-                @include mobile {
-                    font-size: 3rem;
-                    margin-top: 2rem;
-                }
-                @include tablet {
-                    margin-top: 2rem;
-                }
-                }
             .container {
                 display: flex;
                 flex-wrap: wrap;
@@ -159,6 +89,9 @@ body {
                     flex: 1 1 100%;
                     @include mobile {
                         align-items: unset;
+                    }
+                    @include tablet {
+                        max-width:120;
                     }
                     h4 {
                         margin: 0;
@@ -194,7 +127,10 @@ body {
                         background-position: left center;
                         padding-left: 2.5rem;
                         margin-left: 2rem;
-                        margin-right: 0;    
+                        margin-right: 0;
+                        @include tablet {
+                            margin-left: 0;
+                        }    
                         &.icono-h {
                             background-image: url(../assets/horario.png);
                             }
@@ -209,39 +145,11 @@ body {
                             }
                         }
                     }
-                }
-                .boton-card-e{
-                    display: flex;
-                    justify-content: center;
-                    float:left;
-                    font-family: $font-family;
-                    font-size: 1.8rem;
-                    text-decoration: none;
-                    border-radius: 8px;
-                    background-color: $naranja-claro;
-                    color: $blanco;
-                    font-weight: 600;
-                    margin-top:5rem;
-                    margin-left:2rem;          
-                    margin-bottom: 0.2rem;
-                    border: 0.2rem solid $naranja-oscuro; 
-                    padding: 1rem 1.5rem;
-                    &:hover {
-                        background-color: $naranja-oscuro;
-                        color:$blanco;
-                        }
-                    @include mobile {
-                        padding:0.5rem;
-                        margin-left: 2rem;
-                        margin-right:2rem;
-                        margin-bottom: 1rem;
-                        width: 85%;
-                    }
-                    @include tablet {
-                        margin-bottom: 1rem;
+                    .boton-card {
+                        margin-top: 1rem;
                     }
                 }
+                
             }
         }
-    }
-}
+    

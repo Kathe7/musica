@@ -13,18 +13,9 @@ body {
 				grid-template-columns: 1fr;
 			}
 			.header {
-				display: flex;
-				flex-direction: column;
-				justify-content: flex-start;
+				@extend %header;
 				align-items:center;
 				background-color: $morado-oscuro;
-				color: $blanco;
-				border-radius:1rem 0 0 1rem;
-				margin-top: 5rem;
-				margin-left: 4rem;
-				margin-bottom:1.5rem;
-				margin-right:0;
-				height: 300px;
 				@include mobile {
 					height: 320px;
 					margin-top:3rem;
@@ -50,11 +41,7 @@ body {
 					}
 				}
 				.titles--white {
-					text-align: left;
-					font-family: $font-family;
-					font-weight: 700;
-					font-size: 3rem;
-					color:$blanco;
+					@extend %titles--white;
 					padding-top: 3rem;
 					padding-right: 2rem;
 					padding-left: 4rem;
@@ -76,11 +63,8 @@ body {
 						padding-bottom: 0.5rem;
 					}
 				}
-				.text-blanco {
-					font-family: $font-family;
-					font-weight: 400;
-					font-size: 1.5rem;
-					color: $blanco;
+				.text-white {
+					@extend %text-white;
 					padding-left: 4rem;
 					padding-bottom: 2rem;
 					padding-right: 2rem;
@@ -98,19 +82,8 @@ body {
 					}
 				}
 				.boton {
-					font-family: $font-family;
-					font-size: 1.8rem;
-					text-decoration: none;
-					border-radius: 8px;
-					background-color: $naranja-oscuro;
-					color: $blanco;
-					font-weight: 600;
-					margin-left: 4rem;
-					margin-bottom: 2rem;
-					outline: none;
-					border: none;
+					@extend %boton;		
 					align-self: flex-start;
-					padding: 1rem 1.5rem;
 					&:hover {
 						background-color: $hover;
 					}
@@ -181,10 +154,7 @@ body {
 	main {
 		article {
 			.titles {
-				text-align: left;
-				font-family: $font-family;
-				font-weight: 700;
-				font-size: 3rem;
+				@extend %titles--white;
 				color: $naranja-oscuro;
 				padding-top: 0.5rem;
 				padding-right: 2rem;
@@ -200,9 +170,7 @@ body {
 					}
 				}
 			.subtitles {
-				text-align: left;
-				font-family: $font-family;
-				font-weight: 700;
+				@extend %titles--white;
 				font-size: 1.8rem;
 				color: $morado-oscuro;
 				padding-left: 40px;
@@ -267,7 +235,7 @@ body {
 						.title--card-1 {
 						font-weight: 600;
 						font-size: 2.5rem;
-						color:blanco;
+						color:$blanco;
 						padding: 0.6rem;
 						@include mobile {
 							width: 83%;
@@ -277,11 +245,8 @@ body {
 							padding-bottom: 0.5rem;
 							}
 						}
-					.text-blanco {
-						font-family: $font-family;
-						font-weight: 400;
-						font-size: 1.5rem;
-						color: $blanco;
+					.text-white {
+						@extend %text-white;
 						padding-left: 1rem;
 						padding-bottom: 2rem;
 						padding-right: 2rem;
@@ -335,10 +300,7 @@ body {
 				}
 		}
 		.titles {
-			text-align: left;
-			font-family: $font-family;
-			font-weight: 700;
-			font-size: 3rem;
+			@extend %titles--white;
 			color: $naranja-oscuro;
 			padding-top: 0.5rem;
 			padding-right: 2rem;
@@ -354,9 +316,7 @@ body {
 					}
 				}
 		.subtitles {
-			text-align: left;
-			font-family: $font-family;
-			font-weight: 700;
+			@extend %titles--white;
 			font-size: 1.8rem;
 			color: $morado-oscuro;
 			padding-left: 40px;
@@ -446,18 +406,13 @@ body {
 							border-style: solid;
 							}
 						}
-				.boton--form {
-					font-family: $font-family;
-					font-size: 1.8rem;
-					padding: 1rem 2rem;
-					text-decoration: none;
-					border: none;
-					border-radius: 0.8rem;
-					color: $blanco;
+				.boton{
+					@extend %boton;
 					max-width: 25%;
 					background-color: $boton-form;
 					margin-right: 1rem;
 					float: right;
+					margin-top: 1rem;
 						@include mobile {
 							margin-left: 1rem;
 							margin-right:0.5rem;

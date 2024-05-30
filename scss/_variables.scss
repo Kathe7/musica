@@ -7,3 +7,51 @@ $naranja-claro:#f89a8c;
 $hover:#FA3C23;
 $boton-form:#f87564;
 $font-family : "Montserrat", sans-serif;
+
+%titles--white {
+    text-align: left;
+    font-family: $font-family;
+    font-weight: 700;
+    font-size: 3rem;
+    color:$blanco; 
+}
+%text-white {
+    font-family: $font-family;
+	font-weight: 400;
+	font-size: 1.5rem;
+	color: $blanco;
+}
+%header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: $blanco;
+    border-radius:1rem 0 0 1rem;
+    margin-top: 5rem;
+    margin-left: 4rem;
+	margin-bottom:1.5rem;
+	margin-right:0;
+    height: 30rem;
+}
+%boton {
+    font-family: $font-family;
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 0.8rem;
+    background-color: $naranja-oscuro;
+    color: $blanco;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    outline: none;
+    border: none;
+}
+%titles {
+    @extend %titles--white;
+    color: $naranja-oscuro;
+    padding-top: 3rem;
+    padding-right: 2rem;
+    padding-left: 4rem;
+    padding-bottom: 0.5rem;
+}

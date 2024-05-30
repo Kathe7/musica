@@ -27,15 +27,7 @@ body {
                 margin-top: 3rem;
             }
             .titles {
-                text-align: left;
-                font-family: $font-family;
-                font-weight: 700;
-                font-size: 3rem;
-                color: $naranja-oscuro;
-                padding-top: 3rem;
-                padding-right: 2rem;
-                padding-left: 4rem;
-                padding-bottom: 0.5rem;
+                @extend %titles;
                 @include mobile {
                     text-align: center;
                     font-weight: 700;
@@ -48,15 +40,8 @@ body {
     main {
         margin-bottom: 2rem;
         .titles {
-            text-align: left;
-            font-family: $font-family;
-            font-weight: 700;
-            font-size: 3rem;
-            color: $naranja-oscuro;
-            padding-top: 3rem;
-            padding-right: 2rem;
-            padding-left: 4rem;
-            padding-bottom: 0.5rem;
+            @extend %titles;
+            padding-top: 0;
             @include mobile {
 				font-weight: 700;
 				font-size: 2.2rem;
@@ -70,9 +55,7 @@ body {
             }
             }
         .text {
-            font-family: $font-family;
-            font-weight: 400;
-            font-size: 1.5rem;
+            @extend %text-white;
             color: $morado-oscuro;
             padding-left: 4rem;
             padding-bottom: 2rem;
@@ -125,12 +108,8 @@ body {
                 }
             }
             .titles{
-                text-align: left;
-                font-family: $font-family;
-                font-weight: 700;
-                font-size: 3rem;
-                color: $blanco;
-                padding-top: 3rem;
+                @extend %titles--white;
+                padding-top: 0;
                 padding-right: 2rem;
                 padding-left: 4rem;
                 padding-bottom: 0.5rem;
@@ -158,19 +137,9 @@ body {
                 }
             }
             .boton {
-                font-family: $font-family;
-                font-size: 1.8rem;
-                text-decoration: none;
-                border-radius: 8px;
-                background-color: $naranja-oscuro;
-                color: $blanco;
-                font-weight: 600;
-                margin-left: 4rem;
+                @extend %boton;
                 margin-bottom:4rem;
-                outline: none;
-                border: none;
                 align-self: flex-start;
-                padding: 1rem 1.5rem;
                 &:hover {
                     background-color: $hover;
                 }
