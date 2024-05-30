@@ -141,15 +141,7 @@ body {
                     width: 90%;
                 }
             }
-            .titles-card-e{
-                padding-top: 1rem;
-                padding-left: 2rem;
-                padding-right: 2rem;
-                padding-bottom: 0;
-                margin-top:10rem;
-                font-size: 5rem;
-                color:$naranja-oscuro;
-                font-weight: 700;
+            .titles-card-p {
                 @include mobile {
                     font-size: 3rem;
                     margin-top: 2rem;

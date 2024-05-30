@@ -84,6 +84,7 @@ body {
                         }
                         @include tablet {
                             padding-top: 2rem;
+                            padding-left: 3rem;
                         }
                     }
                     .text-blanco {
@@ -102,8 +103,8 @@ body {
                         }
                         @include tablet {
                             font-weight: 400;
-                            font-size: 1.3rem;
-                            padding-left: 2rem;
+                            font-size: 1.2rem;
+                            padding-left:3rem;
                             padding-bottom: 0.5rem;
                             padding-right: 2rem;
                         }
@@ -201,12 +202,8 @@ body {
                     }
                     }
                     .text {
-                    padding-top: 0rem;
                     padding-left: 2rem;
-                    padding-right: 2rem;
-                    padding-bottom: 1rem;
                     margin: 0;
-                    font-size: 1.3rem;
                     }
                     .subtitles-card-2{
                     font-size: 2rem;
@@ -238,7 +235,7 @@ body {
                         font-weight: 600;
                         margin-top:0.2rem;
                         margin-left:2rem;          
-                        margin-bottom: 0.2rem;
+                        margin-bottom: 1rem;
                         border: 0.2rem solid $naranja-oscuro; 
                         padding: 1rem 1.5rem;
                         @include mobile {
@@ -262,4 +259,5 @@ body {
         }
     }	
 		
+	
 	

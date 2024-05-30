@@ -595,6 +595,765 @@ html body {
   background-color: white;
   overflow-x: hidden;
 }
+html body header .caja {
+  position: relative;
+}
+html body header .caja .card-3 {
+  position: absolute;
+  z-index: 1;
+  top: 15%;
+  left: 0;
+  border: 1px solid #190945;
+  border-radius: 2rem;
+  padding: 2.5rem;
+  display: inline-block;
+  background-color: white;
+  margin-top: 2rem;
+  margin-right: 55rem;
+  margin-left: 4rem;
+}
+@media screen and (max-width: 374px) {
+  html body header .caja .card-3 {
+    padding: 1rem;
+    margin-top: 10rem;
+    margin-left: 3rem;
+    width: 82%;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body header .caja .card-3 {
+    padding: 1rem;
+    margin-right: 0;
+    margin-top: 20rem;
+    margin-left: 12rem;
+    width: 70%;
+  }
+}
+html body header .caja .pareja-musicos {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-top: 5rem;
+  margin-left: 63rem;
+  margin-bottom: 1.5rem;
+  margin-right: 5rem;
+}
+@media screen and (max-width: 374px) {
+  html body header .caja .pareja-musicos {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 20rem;
+    height: 195px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body header .caja .pareja-musicos {
+    margin-bottom: 5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    height: 400px;
+  }
+}
+html body header .caja .titles--morado {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #190945;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+@media screen and (max-width: 374px) {
+  html body header .caja .titles--morado {
+    text-align: center;
+    font-size: 2.3rem;
+    padding: 0;
+  }
+}
+html body header .caja .subtitles-c {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #FF543E;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+@media screen and (max-width: 374px) {
+  html body header .caja .subtitles-c {
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.6rem;
+    padding: 0;
+  }
+}
+html body header .caja .text--morado {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #190945;
+  padding-left: 1rem;
+  padding-bottom: 0;
+}
+html body header .caja a {
+  color: #190945;
+  font-weight: 600;
+}
+@media screen and (max-width: 374px) {
+  html body header .caja a {
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 0;
+  }
+}
+html body main .card-cursos, html body main .card-cursos-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  margin: 4rem;
+  border-radius: 0 1rem 1rem 0;
+  border: 0.1rem solid #FF543E;
+}
+html body main .card-cursos-2 {
+  border-radius: 1rem 0 0 1rem;
+}
+@media screen and (max-width: 374px) {
+  html body main .card-cursos, html body main .card-cursos-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    top: 0;
+    margin-right: 3rem;
+  }
+}
+html body main .card-cursos .grid.card, html body main .card-cursos-2 .grid.card {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+html body main .card-cursos .fotos-eventos, html body main .card-cursos-2 .fotos-eventos {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 100;
+}
+@media screen and (max-width: 374px) {
+  html body main .card-cursos .fotos-eventos, html body main .card-cursos-2 .fotos-eventos {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 374px) {
+  html body main .card-cursos .titles-card-p, html body main .card-cursos-2 .titles-card-p {
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .card-cursos .titles-card-p, html body main .card-cursos-2 .titles-card-p {
+    margin-top: 2rem;
+  }
+}
+html body main .card-cursos .container, html body main .card-cursos-2 .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+html body main .card-cursos .container .info-group, html body main .card-cursos-2 .container .info-group {
+  display: flex;
+  align-items: center;
+  flex: 1 1 100%;
+}
+@media screen and (max-width: 374px) {
+  html body main .card-cursos .container .info-group, html body main .card-cursos-2 .container .info-group {
+    align-items: unset;
+  }
+}
+html body main .card-cursos .container .info-group h4, html body main .card-cursos-2 .container .info-group h4 {
+  margin: 0;
+}
+html body main .card-cursos .container .info-group p, html body main .card-cursos-2 .container .info-group p {
+  margin: 0;
+  padding-left: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+html body main .card-cursos .container .info-group .text-e, html body main .card-cursos-2 .container .info-group .text-e {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #190945;
+  padding: 0;
+  margin: 0;
+}
+html body main .card-cursos .container .info-group .subtitles-card-e, html body main .card-cursos-2 .container .info-group .subtitles-card-e {
+  display: inline;
+  margin-right: 0;
+  padding-top: 5rem;
+  padding-left: 0;
+  padding-right: 0.5rem;
+  padding-bottom: 0;
+  margin-top: 5rem;
+}
+html body main .card-cursos .container .info-group .icono-h, html body main .card-cursos-2 .container .info-group .icono-h,
+html body main .card-cursos .container .info-group .icono-l,
+html body main .card-cursos-2 .container .info-group .icono-l,
+html body main .card-cursos .container .info-group .icono-e,
+html body main .card-cursos-2 .container .info-group .icono-e {
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 2.5rem;
+  margin-left: 2rem;
+  margin-right: 0;
+}
+html body main .card-cursos .container .info-group .icono-h.icono-h, html body main .card-cursos-2 .container .info-group .icono-h.icono-h,
+html body main .card-cursos .container .info-group .icono-l.icono-h,
+html body main .card-cursos .container .info-group .icono-e.icono-h {
+  background-image: url(../assets/horario.png);
+}
+html body main .card-cursos .container .info-group .icono-h.icono-l,
+html body main .card-cursos .container .info-group .icono-l.icono-l,
+html body main .card-cursos-2 .container .info-group .icono-l.icono-l,
+html body main .card-cursos .container .info-group .icono-e.icono-l {
+  background-image: url(../assets/location_on2.png);
+}
+html body main .card-cursos .container .info-group .icono-h.icono-e,
+html body main .card-cursos .container .info-group .icono-l.icono-e,
+html body main .card-cursos .container .info-group .icono-e.icono-e,
+html body main .card-cursos-2 .container .info-group .icono-e.icono-e {
+  background-image: url(../assets/entrada.png);
+}
+@media screen and (max-width: 374px) {
+  html body main .card-cursos .container .info-group .icono-h.icono-e,
+  html body main .card-cursos .container .info-group .icono-l.icono-e,
+  html body main .card-cursos .container .info-group .icono-e.icono-e,
+  html body main .card-cursos-2 .container .info-group .icono-e.icono-e {
+    background-position: unset;
+  }
+}
+html body main .card-cursos .boton-card-e, html body main .card-cursos-2 .boton-card-e {
+  display: flex;
+  justify-content: center;
+  float: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  text-decoration: none;
+  border-radius: 8px;
+  background-color: #f89a8c;
+  color: white;
+  font-weight: 600;
+  margin-top: 5rem;
+  margin-left: 2rem;
+  margin-bottom: 0.2rem;
+  border: 0.2rem solid #FF543E;
+  padding: 1rem 1.5rem;
+}
+html body main .card-cursos .boton-card-e:hover, html body main .card-cursos-2 .boton-card-e:hover {
+  background-color: #FF543E;
+  color: white;
+}
+@media screen and (max-width: 374px) {
+  html body main .card-cursos .boton-card-e, html body main .card-cursos-2 .boton-card-e {
+    padding: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    width: 85%;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .card-cursos .boton-card-e, html body main .card-cursos-2 .boton-card-e {
+    margin-bottom: 1rem;
+  }
+}
+
+html {
+  font-size: 62.5%;
+  /*1 rem = 10px*/
+}
+html body {
+  background-color: white;
+  overflow-x: hidden;
+}
+html body header .caja {
+  position: relative;
+}
+html body header .caja .card-2 {
+  position: absolute;
+  z-index: 1;
+  top: 15%;
+  left: 0;
+  border: 1px solid #190945;
+  border-radius: 2rem;
+  padding: 2.5rem;
+  display: inline-block;
+  background-color: white;
+  margin-top: 2rem;
+  margin-right: 55rem;
+  margin-left: 4rem;
+}
+@media screen and (max-width: 374px) {
+  html body header .caja .card-2 {
+    padding: 1rem;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    width: 82%;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body header .caja .card-2 {
+    padding: 1rem;
+    margin-right: 0;
+    margin-top: 8rem;
+    margin-left: 12rem;
+    width: 70%;
+  }
+}
+html body header .caja .hombre-guitarra {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-top: 5rem;
+  margin-left: 63rem;
+  margin-bottom: 1.5rem;
+  margin-right: 5rem;
+}
+@media screen and (max-width: 374px) {
+  html body header .caja .hombre-guitarra {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 23rem;
+    height: 195px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body header .caja .hombre-guitarra {
+    margin-bottom: 5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    height: 400px;
+  }
+}
+html body header .caja a {
+  color: #190945;
+  font-weight: 600;
+}
+@media screen and (max-width: 374px) {
+  html body header .caja a {
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 0;
+  }
+}
+html body main .card-cursos, html body main .card-cursos-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  margin: 4rem;
+  border-radius: 0 1rem 1rem 0;
+  border: 1px solid #FF543E;
+}
+html body main .card-cursos-2 {
+  border-radius: 1rem 0 0 1rem;
+}
+@media screen and (max-width: 374px) {
+  html body main .card-cursos .foto-izq, html body main .card-cursos-2 .foto-izq {
+    display: none;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .card-cursos .foto-izq, html body main .card-cursos-2 .foto-izq {
+    display: none;
+  }
+}
+@media screen and (max-width: 374px) {
+  html body main .card-cursos .foto-der, html body main .card-cursos-2 .foto-der {
+    display: none;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .card-cursos .foto-der, html body main .card-cursos-2 .foto-der {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  html body main .card-cursos .foto-mobile, html body main .card-cursos-2 .foto-mobile {
+    display: none;
+  }
+}
+html body main .card-cursos .titles, html body main .card-cursos-2 .titles {
+  padding-left: 2rem;
+  font-size: 2rem;
+}
+html body main .card-cursos .subtitles-card, html body main .card-cursos-2 .subtitles-card {
+  padding-top: 1rem;
+  padding-left: 0;
+  padding-right: 2rem;
+  padding-bottom: 0;
+  margin: 0;
+}
+html body main .card-cursos .list, html body main .card-cursos-2 .list {
+  padding: 0;
+  margin-left: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  color: #190945;
+}
+html body main .card-cursos .icono-r, html body main .card-cursos-2 .icono-r,
+html body main .card-cursos .icono-i,
+html body main .card-cursos-2 .icono-i,
+html body main .card-cursos .icono-h,
+html body main .card-cursos-2 .icono-h,
+html body main .card-cursos .icono-d,
+html body main .card-cursos-2 .icono-d,
+html body main .card-cursos .icono-s,
+html body main .card-cursos-2 .icono-s {
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 2.5rem;
+  margin-left: 2rem;
+  margin-right: 0;
+}
+html body main .card-cursos .icono-r.icono-r, html body main .card-cursos-2 .icono-r.icono-r,
+html body main .card-cursos .icono-i.icono-r,
+html body main .card-cursos .icono-h.icono-r,
+html body main .card-cursos .icono-d.icono-r,
+html body main .card-cursos .icono-s.icono-r {
+  background-image: url(../assets/requisitos.png);
+}
+html body main .card-cursos .icono-r.icono-i,
+html body main .card-cursos .icono-i.icono-i,
+html body main .card-cursos-2 .icono-i.icono-i,
+html body main .card-cursos .icono-h.icono-i,
+html body main .card-cursos .icono-d.icono-i,
+html body main .card-cursos .icono-s.icono-i {
+  background-image: url(../assets/que-incluye.png);
+}
+html body main .card-cursos .icono-r.icono-h,
+html body main .card-cursos .icono-i.icono-h,
+html body main .card-cursos .icono-h.icono-h,
+html body main .card-cursos-2 .icono-h.icono-h,
+html body main .card-cursos .icono-d.icono-h,
+html body main .card-cursos .icono-s.icono-h {
+  background-image: url(../assets/horario.png);
+}
+html body main .card-cursos .icono-r.icono-d,
+html body main .card-cursos .icono-i.icono-d,
+html body main .card-cursos .icono-h.icono-d,
+html body main .card-cursos .icono-d.icono-d,
+html body main .card-cursos-2 .icono-d.icono-d,
+html body main .card-cursos .icono-s.icono-d {
+  background-image: url(../assets/duracion.png);
+}
+html body main .card-cursos .icono-r.icono-s,
+html body main .card-cursos .icono-i.icono-s,
+html body main .card-cursos .icono-h.icono-s,
+html body main .card-cursos .icono-d.icono-s,
+html body main .card-cursos .icono-s.icono-s,
+html body main .card-cursos-2 .icono-s.icono-s {
+  background-image: url(../assets/importante.png);
+  padding-left: 1rem;
+}
+
+html {
+  font-size: 62.5%;
+  /*1 rem = 10px*/
+}
+html body {
+  background-color: white;
+  overflow-x: hidden;
+}
+html body header .caja {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 374px) {
+  html body header .caja {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+html body header .caja .foto-header .foto-np {
+  background: linear-gradient(305deg, hsl(7, 55%, 56%) 0%, hsl(7, 60%, 60%) 25%, hsl(7, 73%, 58%) 50%, hsl(7, 74%, 50%) 75%, hsl(7, 95%, 38%) 100%);
+  border-radius: 0.8px;
+  margin-top: 5rem;
+  margin-right: 4rem;
+  margin-bottom: 1.5rem;
+  height: 28rem;
+  border-radius: 0 1rem 1rem 0;
+}
+@media screen and (max-width: 374px) {
+  html body header .caja .foto-header .foto-np {
+    width: 80%;
+    margin-top: 0;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-top: 0;
+    height: 180px;
+    border-radius: 0 0 1rem 1rem;
+  }
+}
+html body header .caja .header-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  background-color: #FA3C23;
+  color: white;
+  border-radius: 1rem 0 0 1rem;
+  margin-top: 5rem;
+  margin-left: 4rem;
+  margin-bottom: 1.5rem;
+  margin-right: 0;
+  height: 280px;
+}
+@media screen and (max-width: 374px) {
+  html body header .caja .header-2 {
+    height: 305px;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 0;
+    width: 80%;
+    border-radius: 1rem 1rem 0 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+html body header .caja .header-2 .titles--white {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: white;
+  padding-top: 8rem;
+  padding-right: 20px;
+  padding-left: 40px;
+  padding-bottom: 5px;
+}
+@media screen and (max-width: 374px) {
+  html body header .caja .header-2 .titles--white {
+    font-weight: 600;
+    font-size: 2.3rem;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body header .caja .header-2 .titles--white {
+    padding-top: 2rem;
+    padding-left: 3rem;
+  }
+}
+html body header .caja .header-2 .text-blanco {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: white;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 374px) {
+  html body header .caja .header-2 .text-blanco {
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body header .caja .header-2 .text-blanco {
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: 3rem;
+    padding-bottom: 0.5rem;
+    padding-right: 2rem;
+  }
+}
+html body main .card-cursos, html body main .card-cursos-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 4rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+  border: 1px solid #FF543E;
+}
+@media screen and (max-width: 374px) {
+  html body main .card-cursos, html body main .card-cursos-2 {
+    border-radius: 1rem 1rem 1rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 3rem;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .card-cursos, html body main .card-cursos-2 {
+    border-radius: 1rem 1rem 1rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 3rem;
+  }
+}
+html body main .card-cursos .grid.card, html body main .card-cursos-2 .grid.card {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+html body main .card-cursos .logos-profes, html body main .card-cursos-2 .logos-profes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  float: right;
+  gap: 2rem;
+  margin-top: 16rem;
+  margin-right: 2.5rem;
+}
+@media screen and (max-width: 374px) {
+  html body main .card-cursos .logos-profes, html body main .card-cursos-2 .logos-profes {
+    display: none;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .card-cursos .logos-profes, html body main .card-cursos-2 .logos-profes {
+    margin-top: 3rem;
+  }
+}
+html body main .card-cursos .foto-izq, html body main .card-cursos-2 .foto-izq {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 100;
+  border-radius: 1rem 8rem 8rem 1rem;
+}
+@media screen and (max-width: 374px) {
+  html body main .card-cursos .foto-izq, html body main .card-cursos-2 .foto-izq {
+    display: none;
+  }
+}
+html body main .card-cursos .foto-der, html body main .card-cursos-2 .foto-der {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 100;
+  border-radius: 8rem 1rem 1rem 8rem;
+}
+@media screen and (max-width: 374px) {
+  html body main .card-cursos .foto-der, html body main .card-cursos-2 .foto-der {
+    display: none;
+  }
+}
+html body main .card-cursos .foto-mobile, html body main .card-cursos-2 .foto-mobile {
+  width: 100%;
+  border-radius: 1rem 1rem 2rem 2rem;
+}
+@media screen and (min-width: 1024px) {
+  html body main .card-cursos .foto-mobile, html body main .card-cursos-2 .foto-mobile {
+    display: none;
+  }
+}
+html body main .card-cursos .titles-card-p, html body main .card-cursos-2 .titles-card-p {
+  padding-top: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 0;
+  margin-top: 10rem;
+  font-size: 5rem;
+  color: #FF543E;
+  font-weight: 700;
+}
+@media screen and (max-width: 374px) {
+  html body main .card-cursos .titles-card-p, html body main .card-cursos-2 .titles-card-p {
+    font-weight: 700;
+    font-size: 2.2rem;
+    padding-top: 1.5rem;
+    padding-right: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .card-cursos .titles-card-p, html body main .card-cursos-2 .titles-card-p {
+    margin-top: 0;
+    padding-top: 1rem;
+  }
+}
+html body main .card-cursos .text, html body main .card-cursos-2 .text {
+  padding-left: 2rem;
+  margin: 0;
+}
+html body main .card-cursos .subtitles-card-2, html body main .card-cursos-2 .subtitles-card-2 {
+  font-size: 2rem;
+  padding-left: 2rem;
+  margin: 0;
+}
+html body main .card-cursos .list, html body main .card-cursos-2 .list {
+  padding-top: 0;
+  padding-left: 1rem;
+  padding-right: 0;
+  padding-bottom: 1rem;
+  margin-left: 3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  color: #190945;
+}
+html body main .card-cursos .boton-card, html body main .card-cursos-2 .boton-card {
+  display: flex;
+  justify-content: center;
+  float: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  text-decoration: none;
+  border-radius: 8px;
+  background-color: #f89a8c;
+  color: white;
+  font-weight: 600;
+  margin-top: 0.2rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  border: 0.2rem solid #FF543E;
+  padding: 1rem 1.5rem;
+}
+@media screen and (max-width: 374px) {
+  html body main .card-cursos .boton-card, html body main .card-cursos-2 .boton-card {
+    float: left;
+    padding: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    width: 85%;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html body main .card-cursos .boton-card, html body main .card-cursos-2 .boton-card {
+    margin-bottom: 1rem;
+  }
+}
+html body main .card-cursos .boton-card:hover, html body main .card-cursos-2 .boton-card:hover {
+  background-color: #FF543E;
+  color: white;
+}
+
+html {
+  font-size: 62.5%;
+  /*1 rem = 10px*/
+}
+html body {
+  background-color: white;
+  overflow-x: hidden;
+}
 html body header .foto-escuela {
   width: 100;
   height: 30rem;
@@ -797,835 +1556,6 @@ html body main .boton:hover {
   html body main .boton {
     margin-top: 2rem;
   }
-}
-
-html {
-  font-size: 62.5%;
-  /*1 rem = 10px*/
-}
-html body {
-  background-color: white;
-  overflow-x: hidden;
-}
-html body header .caja {
-  position: relative;
-}
-html body header .caja .card-3 {
-  position: absolute;
-  z-index: 1;
-  top: 15%;
-  left: 0;
-  border: 1px solid #190945;
-  border-radius: 2rem;
-  padding: 2.5rem;
-  display: inline-block;
-  background-color: white;
-  margin-top: 2rem;
-  margin-right: 55rem;
-  margin-left: 4rem;
-}
-@media screen and (max-width: 374px) {
-  html body header .caja .card-3 {
-    padding: 1rem;
-    margin-top: 10rem;
-    margin-left: 3rem;
-    width: 82%;
-  }
-}
-@media screen and (min-width: 375px) and (max-width: 768px) {
-  html body header .caja .card-3 {
-    padding: 1rem;
-    margin-right: 0;
-    margin-top: 20rem;
-    margin-left: 12rem;
-    width: 70%;
-  }
-}
-html body header .caja .pareja-musicos {
-  position: relative;
-  top: 0;
-  left: 0;
-  margin-top: 5rem;
-  margin-left: 63rem;
-  margin-bottom: 1.5rem;
-  margin-right: 5rem;
-}
-@media screen and (max-width: 374px) {
-  html body header .caja .pareja-musicos {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 3rem;
-    margin-bottom: 20rem;
-    height: 195px;
-  }
-}
-@media screen and (min-width: 375px) and (max-width: 768px) {
-  html body header .caja .pareja-musicos {
-    margin-bottom: 5rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    height: 400px;
-  }
-}
-html body header .caja .titles--morado {
-  text-align: left;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 3rem;
-  color: #190945;
-  padding-top: 1rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  padding-bottom: 0.5rem;
-}
-@media screen and (max-width: 374px) {
-  html body header .caja .titles--morado {
-    text-align: center;
-    font-size: 2.3rem;
-    padding: 0;
-  }
-}
-html body header .caja .subtitles-c {
-  text-align: left;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 3rem;
-  color: #FF543E;
-  padding-top: 1rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  padding-bottom: 0.5rem;
-}
-@media screen and (max-width: 374px) {
-  html body header .caja .subtitles-c {
-    text-align: center;
-    font-weight: 800;
-    font-size: 1.6rem;
-    padding: 0;
-  }
-}
-html body header .caja .text--morado {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 1.5rem;
-  color: #190945;
-  padding-left: 1rem;
-  padding-bottom: 0;
-}
-html body header .caja a {
-  color: #190945;
-  font-weight: 600;
-}
-@media screen and (max-width: 374px) {
-  html body header .caja a {
-    font-weight: 600;
-    font-size: 1.5rem;
-    padding: 0;
-  }
-}
-html body main .card-cursos, html body main .card-cursos-2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 0;
-  margin: 4rem;
-  border-radius: 0 1rem 1rem 0;
-  border: 0.1rem solid #FF543E;
-}
-html body main .card-cursos-2 {
-  border-radius: 1rem 0 0 1rem;
-}
-@media screen and (max-width: 374px) {
-  html body main .card-cursos, html body main .card-cursos-2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    top: 0;
-    margin-right: 3rem;
-  }
-}
-html body main .card-cursos .grid.card, html body main .card-cursos-2 .grid.card {
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-html body main .card-cursos .fotos-eventos, html body main .card-cursos-2 .fotos-eventos {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  height: 100;
-}
-@media screen and (max-width: 374px) {
-  html body main .card-cursos .fotos-eventos, html body main .card-cursos-2 .fotos-eventos {
-    width: 90%;
-  }
-}
-html body main .card-cursos .titles-card-e, html body main .card-cursos-2 .titles-card-e {
-  padding-top: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 0;
-  margin-top: 10rem;
-  font-size: 5rem;
-  color: #FF543E;
-  font-weight: 700;
-}
-@media screen and (max-width: 374px) {
-  html body main .card-cursos .titles-card-e, html body main .card-cursos-2 .titles-card-e {
-    font-size: 3rem;
-    margin-top: 2rem;
-  }
-}
-@media screen and (min-width: 375px) and (max-width: 768px) {
-  html body main .card-cursos .titles-card-e, html body main .card-cursos-2 .titles-card-e {
-    margin-top: 2rem;
-  }
-}
-html body main .card-cursos .container, html body main .card-cursos-2 .container {
-  display: flex;
-  flex-wrap: wrap;
-}
-html body main .card-cursos .container .info-group, html body main .card-cursos-2 .container .info-group {
-  display: flex;
-  align-items: center;
-  flex: 1 1 100%;
-}
-@media screen and (max-width: 374px) {
-  html body main .card-cursos .container .info-group, html body main .card-cursos-2 .container .info-group {
-    align-items: unset;
-  }
-}
-html body main .card-cursos .container .info-group h4, html body main .card-cursos-2 .container .info-group h4 {
-  margin: 0;
-}
-html body main .card-cursos .container .info-group p, html body main .card-cursos-2 .container .info-group p {
-  margin: 0;
-  padding-left: 1rem;
-  font-size: 1.3rem;
-  font-weight: 500;
-}
-html body main .card-cursos .container .info-group .text-e, html body main .card-cursos-2 .container .info-group .text-e {
-  text-align: left;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 1.5rem;
-  color: #190945;
-  padding: 0;
-  margin: 0;
-}
-html body main .card-cursos .container .info-group .subtitles-card-e, html body main .card-cursos-2 .container .info-group .subtitles-card-e {
-  display: inline;
-  margin-right: 0;
-  padding-top: 5rem;
-  padding-left: 0;
-  padding-right: 0.5rem;
-  padding-bottom: 0;
-  margin-top: 5rem;
-}
-html body main .card-cursos .container .info-group .icono-h, html body main .card-cursos-2 .container .info-group .icono-h,
-html body main .card-cursos .container .info-group .icono-l,
-html body main .card-cursos-2 .container .info-group .icono-l,
-html body main .card-cursos .container .info-group .icono-e,
-html body main .card-cursos-2 .container .info-group .icono-e {
-  background-repeat: no-repeat;
-  background-position: left center;
-  padding-left: 2.5rem;
-  margin-left: 2rem;
-  margin-right: 0;
-}
-html body main .card-cursos .container .info-group .icono-h.icono-h, html body main .card-cursos-2 .container .info-group .icono-h.icono-h,
-html body main .card-cursos .container .info-group .icono-l.icono-h,
-html body main .card-cursos .container .info-group .icono-e.icono-h {
-  background-image: url(../assets/horario.png);
-}
-html body main .card-cursos .container .info-group .icono-h.icono-l,
-html body main .card-cursos .container .info-group .icono-l.icono-l,
-html body main .card-cursos-2 .container .info-group .icono-l.icono-l,
-html body main .card-cursos .container .info-group .icono-e.icono-l {
-  background-image: url(../assets/location_on2.png);
-}
-html body main .card-cursos .container .info-group .icono-h.icono-e,
-html body main .card-cursos .container .info-group .icono-l.icono-e,
-html body main .card-cursos .container .info-group .icono-e.icono-e,
-html body main .card-cursos-2 .container .info-group .icono-e.icono-e {
-  background-image: url(../assets/entrada.png);
-}
-@media screen and (max-width: 374px) {
-  html body main .card-cursos .container .info-group .icono-h.icono-e,
-  html body main .card-cursos .container .info-group .icono-l.icono-e,
-  html body main .card-cursos .container .info-group .icono-e.icono-e,
-  html body main .card-cursos-2 .container .info-group .icono-e.icono-e {
-    background-position: unset;
-  }
-}
-html body main .card-cursos .boton-card-e, html body main .card-cursos-2 .boton-card-e {
-  display: flex;
-  justify-content: center;
-  float: left;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.8rem;
-  text-decoration: none;
-  border-radius: 8px;
-  background-color: #f89a8c;
-  color: white;
-  font-weight: 600;
-  margin-top: 5rem;
-  margin-left: 2rem;
-  margin-bottom: 0.2rem;
-  border: 0.2rem solid #FF543E;
-  padding: 1rem 1.5rem;
-}
-html body main .card-cursos .boton-card-e:hover, html body main .card-cursos-2 .boton-card-e:hover {
-  background-color: #FF543E;
-  color: white;
-}
-@media screen and (max-width: 374px) {
-  html body main .card-cursos .boton-card-e, html body main .card-cursos-2 .boton-card-e {
-    padding: 0.5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 1rem;
-    width: 85%;
-  }
-}
-@media screen and (min-width: 375px) and (max-width: 768px) {
-  html body main .card-cursos .boton-card-e, html body main .card-cursos-2 .boton-card-e {
-    margin-bottom: 1rem;
-  }
-}
-
-html {
-  font-size: 62.5%;
-  /*1 rem = 10px*/
-}
-html body {
-  background-color: white;
-  overflow-x: hidden;
-}
-html body header .caja {
-  position: relative;
-}
-html body header .caja .card-2 {
-  position: absolute;
-  z-index: 1;
-  top: 15%;
-  left: 0;
-  border: 1px solid #190945;
-  border-radius: 2rem;
-  padding: 2.5rem;
-  display: inline-block;
-  background-color: white;
-  margin-top: 2rem;
-  margin-right: 55rem;
-  margin-left: 4rem;
-}
-@media screen and (max-width: 374px) {
-  html body header .caja .card-2 {
-    padding: 1rem;
-    margin-top: 5rem;
-    margin-left: 3rem;
-    width: 82%;
-  }
-}
-@media screen and (min-width: 375px) and (max-width: 768px) {
-  html body header .caja .card-2 {
-    padding: 1rem;
-    margin-right: 0;
-    margin-top: 8rem;
-    margin-left: 12rem;
-    width: 70%;
-  }
-}
-html body header .caja .hombre-guitarra {
-  position: relative;
-  top: 0;
-  left: 0;
-  margin-top: 5rem;
-  margin-left: 63rem;
-  margin-bottom: 1.5rem;
-  margin-right: 5rem;
-}
-@media screen and (max-width: 374px) {
-  html body header .caja .hombre-guitarra {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 3rem;
-    margin-bottom: 23rem;
-    height: 195px;
-  }
-}
-@media screen and (min-width: 375px) and (max-width: 768px) {
-  html body header .caja .hombre-guitarra {
-    margin-bottom: 5rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    height: 400px;
-  }
-}
-html body header .caja .titles--morado {
-  text-align: left;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 3rem;
-  color: #190945;
-  padding-top: 1rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  padding-bottom: 0.5rem;
-}
-@media screen and (max-width: 374px) {
-  html body header .caja .titles--morado {
-    text-align: center;
-    font-size: 2.3rem;
-    padding: 0;
-  }
-}
-html body header .caja .subtitles-c {
-  text-align: left;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 3rem;
-  color: #FF543E;
-  padding-top: 1rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  padding-bottom: 0.5rem;
-}
-@media screen and (max-width: 374px) {
-  html body header .caja .subtitles-c {
-    text-align: center;
-    font-weight: 800;
-    font-size: 1.6rem;
-    padding: 0;
-  }
-}
-html body header .caja .text--morado {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 1.5rem;
-  color: #190945;
-  padding-left: 1rem;
-  padding-bottom: 0;
-}
-html body header .caja a {
-  color: #190945;
-  font-weight: 600;
-}
-@media screen and (max-width: 374px) {
-  html body header .caja a {
-    font-weight: 600;
-    font-size: 1.5rem;
-    padding: 0;
-  }
-}
-html body main .card-cursos, html body main .card-cursos-2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 0;
-  margin: 4rem;
-  border-radius: 0 1rem 1rem 0;
-  border: 1px solid #FF543E;
-}
-html body main .card-cursos-2 {
-  border-radius: 1rem 0 0 1rem;
-}
-@media screen and (max-width: 374px) {
-  html body main .card-cursos .foto-izq, html body main .card-cursos-2 .foto-izq {
-    display: none;
-  }
-}
-@media screen and (min-width: 375px) and (max-width: 768px) {
-  html body main .card-cursos .foto-izq, html body main .card-cursos-2 .foto-izq {
-    display: none;
-  }
-}
-@media screen and (max-width: 374px) {
-  html body main .card-cursos .foto-der, html body main .card-cursos-2 .foto-der {
-    display: none;
-  }
-}
-@media screen and (min-width: 375px) and (max-width: 768px) {
-  html body main .card-cursos .foto-der, html body main .card-cursos-2 .foto-der {
-    display: none;
-  }
-}
-@media screen and (min-width: 1024px) {
-  html body main .card-cursos .foto-mobile, html body main .card-cursos-2 .foto-mobile {
-    display: none;
-  }
-}
-html body main .card-cursos .titles, html body main .card-cursos-2 .titles {
-  padding-top: 2rem;
-  padding-left: 2rem;
-  padding-right: 0;
-  padding-bottom: 0;
-  margin: 0;
-  font-size: 2rem;
-}
-html body main .card-cursos .text, html body main .card-cursos-2 .text {
-  padding-top: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 1rem;
-  margin: 1rem;
-  font-size: 1.3rem;
-}
-html body main .card-cursos .subtitles-card, html body main .card-cursos-2 .subtitles-card {
-  padding-top: 1rem;
-  padding-left: 0;
-  padding-right: 2rem;
-  padding-bottom: 0;
-  margin: 0;
-}
-html body main .card-cursos .list, html body main .card-cursos-2 .list {
-  padding: 0;
-  margin-left: 1rem;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 1.3rem;
-  font-family: "Montserrat", sans-serif;
-  color: #190945;
-}
-html body main .card-cursos .icono-r, html body main .card-cursos-2 .icono-r,
-html body main .card-cursos .icono-i,
-html body main .card-cursos-2 .icono-i,
-html body main .card-cursos .icono-h,
-html body main .card-cursos-2 .icono-h,
-html body main .card-cursos .icono-d,
-html body main .card-cursos-2 .icono-d,
-html body main .card-cursos .icono-s,
-html body main .card-cursos-2 .icono-s {
-  background-repeat: no-repeat;
-  background-position: left center;
-  padding-left: 2.5rem;
-  margin-left: 2rem;
-  margin-right: 0;
-}
-html body main .card-cursos .icono-r.icono-r, html body main .card-cursos-2 .icono-r.icono-r,
-html body main .card-cursos .icono-i.icono-r,
-html body main .card-cursos .icono-h.icono-r,
-html body main .card-cursos .icono-d.icono-r,
-html body main .card-cursos .icono-s.icono-r {
-  background-image: url(../assets/requisitos.png);
-}
-html body main .card-cursos .icono-r.icono-i,
-html body main .card-cursos .icono-i.icono-i,
-html body main .card-cursos-2 .icono-i.icono-i,
-html body main .card-cursos .icono-h.icono-i,
-html body main .card-cursos .icono-d.icono-i,
-html body main .card-cursos .icono-s.icono-i {
-  background-image: url(../assets/que-incluye.png);
-}
-html body main .card-cursos .icono-r.icono-h,
-html body main .card-cursos .icono-i.icono-h,
-html body main .card-cursos .icono-h.icono-h,
-html body main .card-cursos-2 .icono-h.icono-h,
-html body main .card-cursos .icono-d.icono-h,
-html body main .card-cursos .icono-s.icono-h {
-  background-image: url(../assets/horario.png);
-}
-html body main .card-cursos .icono-r.icono-d,
-html body main .card-cursos .icono-i.icono-d,
-html body main .card-cursos .icono-h.icono-d,
-html body main .card-cursos .icono-d.icono-d,
-html body main .card-cursos-2 .icono-d.icono-d,
-html body main .card-cursos .icono-s.icono-d {
-  background-image: url(../assets/duracion.png);
-}
-html body main .card-cursos .icono-r.icono-s,
-html body main .card-cursos .icono-i.icono-s,
-html body main .card-cursos .icono-h.icono-s,
-html body main .card-cursos .icono-d.icono-s,
-html body main .card-cursos .icono-s.icono-s,
-html body main .card-cursos-2 .icono-s.icono-s {
-  background-image: url(../assets/importante.png);
-  padding-left: 1rem;
-}
-
-html {
-  font-size: 62.5%;
-  /*1 rem = 10px*/
-}
-html body {
-  background-color: white;
-  overflow-x: hidden;
-}
-html body header .caja {
-  display: flex;
-  flex-direction: row;
-}
-@media screen and (max-width: 374px) {
-  html body header .caja {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-}
-html body header .caja .foto-header .foto-np {
-  background: linear-gradient(305deg, hsl(7, 55%, 56%) 0%, hsl(7, 60%, 60%) 25%, hsl(7, 73%, 58%) 50%, hsl(7, 74%, 50%) 75%, hsl(7, 95%, 38%) 100%);
-  border-radius: 0.8px;
-  margin-top: 5rem;
-  margin-right: 4rem;
-  margin-bottom: 1.5rem;
-  height: 28rem;
-  border-radius: 0 1rem 1rem 0;
-}
-@media screen and (max-width: 374px) {
-  html body header .caja .foto-header .foto-np {
-    width: 80%;
-    margin-top: 0;
-    margin-right: 3rem;
-    margin-left: 3rem;
-    margin-top: 0;
-    height: 180px;
-    border-radius: 0 0 1rem 1rem;
-  }
-}
-html body header .caja .header-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: left;
-  background-color: #FA3C23;
-  color: white;
-  border-radius: 1rem 0 0 1rem;
-  margin-top: 5rem;
-  margin-left: 4rem;
-  margin-bottom: 1.5rem;
-  margin-right: 0;
-  height: 280px;
-}
-@media screen and (max-width: 374px) {
-  html body header .caja .header-2 {
-    height: 305px;
-    margin-top: 3rem;
-    margin-right: 3rem;
-    margin-left: 3rem;
-    margin-bottom: 0;
-    width: 80%;
-    border-radius: 1rem 1rem 0 0;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-bottom: 1rem;
-  }
-}
-html body header .caja .header-2 .titles--white {
-  text-align: left;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 3rem;
-  color: white;
-  padding-top: 8rem;
-  padding-right: 20px;
-  padding-left: 40px;
-  padding-bottom: 5px;
-}
-@media screen and (max-width: 374px) {
-  html body header .caja .header-2 .titles--white {
-    font-weight: 600;
-    font-size: 2.3rem;
-    padding-top: 2rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-bottom: 0.5rem;
-  }
-}
-@media screen and (min-width: 375px) and (max-width: 768px) {
-  html body header .caja .header-2 .titles--white {
-    padding-top: 2rem;
-  }
-}
-html body header .caja .header-2 .text-blanco {
-  text-align: left;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 1.5rem;
-  color: white;
-  padding-left: 4rem;
-  padding-right: 4rem;
-  padding-bottom: 20px;
-}
-@media screen and (max-width: 374px) {
-  html body header .caja .header-2 .text-blanco {
-    font-weight: 400;
-    font-size: 1.2rem;
-    padding: 1rem;
-  }
-}
-@media screen and (min-width: 375px) and (max-width: 768px) {
-  html body header .caja .header-2 .text-blanco {
-    font-weight: 400;
-    font-size: 1.3rem;
-    padding-left: 2rem;
-    padding-bottom: 0.5rem;
-    padding-right: 2rem;
-  }
-}
-html body main .card-cursos, html body main .card-cursos-2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 4rem;
-  border-radius: 1rem 1rem 1rem 1rem;
-  border: 1px solid #FF543E;
-}
-@media screen and (max-width: 374px) {
-  html body main .card-cursos, html body main .card-cursos-2 {
-    border-radius: 1rem 1rem 1rem 1rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 3rem;
-  }
-}
-@media screen and (min-width: 375px) and (max-width: 768px) {
-  html body main .card-cursos, html body main .card-cursos-2 {
-    border-radius: 1rem 1rem 1rem 1rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 3rem;
-  }
-}
-html body main .card-cursos .grid.card, html body main .card-cursos-2 .grid.card {
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-html body main .card-cursos .logos-profes, html body main .card-cursos-2 .logos-profes {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  float: right;
-  gap: 2rem;
-  margin-top: 16rem;
-  margin-right: 2.5rem;
-}
-@media screen and (max-width: 374px) {
-  html body main .card-cursos .logos-profes, html body main .card-cursos-2 .logos-profes {
-    display: none;
-  }
-}
-@media screen and (min-width: 375px) and (max-width: 768px) {
-  html body main .card-cursos .logos-profes, html body main .card-cursos-2 .logos-profes {
-    margin-top: 3rem;
-  }
-}
-html body main .card-cursos .foto-izq, html body main .card-cursos-2 .foto-izq {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  height: 100;
-  border-radius: 1rem 8rem 8rem 1rem;
-}
-@media screen and (max-width: 374px) {
-  html body main .card-cursos .foto-izq, html body main .card-cursos-2 .foto-izq {
-    display: none;
-  }
-}
-html body main .card-cursos .foto-der, html body main .card-cursos-2 .foto-der {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  height: 100;
-  border-radius: 8rem 1rem 1rem 8rem;
-}
-@media screen and (max-width: 374px) {
-  html body main .card-cursos .foto-der, html body main .card-cursos-2 .foto-der {
-    display: none;
-  }
-}
-html body main .card-cursos .foto-mobile, html body main .card-cursos-2 .foto-mobile {
-  width: 100%;
-  border-radius: 1rem 1rem 2rem 2rem;
-}
-@media screen and (min-width: 1024px) {
-  html body main .card-cursos .foto-mobile, html body main .card-cursos-2 .foto-mobile {
-    display: none;
-  }
-}
-html body main .card-cursos .titles-card-p, html body main .card-cursos-2 .titles-card-p {
-  padding-top: 4rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 0;
-  margin-top: 10rem;
-  font-size: 5rem;
-  color: #FF543E;
-  font-weight: 700;
-}
-@media screen and (max-width: 374px) {
-  html body main .card-cursos .titles-card-p, html body main .card-cursos-2 .titles-card-p {
-    font-weight: 700;
-    font-size: 2.2rem;
-    padding-top: 1.5rem;
-    padding-right: 3rem;
-    padding-left: 2rem;
-    padding-bottom: 0.5rem;
-    margin-top: 0.5rem;
-  }
-}
-@media screen and (min-width: 375px) and (max-width: 768px) {
-  html body main .card-cursos .titles-card-p, html body main .card-cursos-2 .titles-card-p {
-    margin-top: 0;
-    padding-top: 1rem;
-  }
-}
-html body main .card-cursos .text, html body main .card-cursos-2 .text {
-  padding-top: 0rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 1rem;
-  margin: 0;
-  font-size: 1.3rem;
-}
-html body main .card-cursos .subtitles-card-2, html body main .card-cursos-2 .subtitles-card-2 {
-  font-size: 2rem;
-  padding-left: 2rem;
-  margin: 0;
-}
-html body main .card-cursos .list, html body main .card-cursos-2 .list {
-  padding-top: 0;
-  padding-left: 1rem;
-  padding-right: 0;
-  padding-bottom: 1rem;
-  margin-left: 3rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0;
-  font-size: 1.3rem;
-  font-family: "Montserrat", sans-serif;
-  color: #190945;
-}
-html body main .card-cursos .boton-card, html body main .card-cursos-2 .boton-card {
-  display: flex;
-  justify-content: center;
-  float: left;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.8rem;
-  text-decoration: none;
-  border-radius: 8px;
-  background-color: #f89a8c;
-  color: white;
-  font-weight: 600;
-  margin-top: 0.2rem;
-  margin-left: 2rem;
-  margin-bottom: 0.2rem;
-  border: 0.2rem solid #FF543E;
-  padding: 1rem 1.5rem;
-}
-@media screen and (max-width: 374px) {
-  html body main .card-cursos .boton-card, html body main .card-cursos-2 .boton-card {
-    float: left;
-    padding: 0.5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 1rem;
-    width: 85%;
-  }
-}
-@media screen and (min-width: 375px) and (max-width: 768px) {
-  html body main .card-cursos .boton-card, html body main .card-cursos-2 .boton-card {
-    margin-bottom: 1rem;
-  }
-}
-html body main .card-cursos .boton-card:hover, html body main .card-cursos-2 .boton-card:hover {
-  background-color: #FF543E;
-  color: white;
 }
 
 footer {
