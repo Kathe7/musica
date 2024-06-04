@@ -142,7 +142,7 @@ body {
                 align-self: flex-start;
                 &:hover {
                     background-color: $hover;
-                }
+                } 
                 @include mobile {
                     padding: 1rem 9rem;
                     margin-left: 3rem;
